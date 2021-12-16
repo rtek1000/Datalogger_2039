@@ -24,7 +24,7 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf}\{#MyAppName}
 ChangesAssociations=yes
 DisableProgramGroupPage=yes
-LicenseFile=G:\Datalogger_2039_File_Converter Installer\licence.txt
+LicenseFile=C:\Datalogger_2039_File_Converter_Installer\licence.txt
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=dialog
@@ -46,12 +46,12 @@ Name: "{app}";
 Name: "{app}\bin\data"; Permissions: users-full
 
 [Files]
-Source: "G:\Datalogger_2039_File_Converter Installer\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "G:\Datalogger_2039_File_Converter Installer\bin\*"; DestDir: "{app}\bin"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "G:\Datalogger_2039_File_Converter Installer\conf\*"; DestDir: "{app}\conf"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "G:\Datalogger_2039_File_Converter Installer\legal\*"; DestDir: "{app}\legal"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "G:\Datalogger_2039_File_Converter Installer\lib\*"; DestDir: "{app}\lib"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "G:\Datalogger_2039_File_Converter Installer\bin\data\*"; DestDir: "{app}\bin\data"; Flags: ignoreversion recursesubdirs createallsubdirs; Permissions: users-full
+Source: "C:\Datalogger_2039_File_Converter_Installer\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Datalogger_2039_File_Converter_Installer\bin\*"; DestDir: "{app}\bin"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Datalogger_2039_File_Converter_Installer\conf\*"; DestDir: "{app}\conf"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Datalogger_2039_File_Converter_Installer\legal\*"; DestDir: "{app}\legal"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Datalogger_2039_File_Converter_Installer\lib\*"; DestDir: "{app}\lib"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Datalogger_2039_File_Converter_Installer\bin\data\*"; DestDir: "{app}\bin\data"; Flags: ignoreversion recursesubdirs createallsubdirs; Permissions: users-full
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Registry]
