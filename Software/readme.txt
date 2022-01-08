@@ -2,6 +2,7 @@ Notes:
 - USB_HOST_HID_MSC_LCD_FLASH_RTC_ACC_TEMP3 (STM32F407VGT6 firmware):
 -- Editing software: STM32CubeIDE version: 1.6.1 [https://www.st.com/en/development-tools/stm32cubeide.html]
 -- Editing software: STM32CubeIDE version: 1.7.0 [https://www.st.com/en/development-tools/stm32cubeide.html]
+-- Editing software: STM32CubeIDE version: 1.8.0 [https://www.st.com/en/development-tools/stm32cubeide.html]
 -- Initial code development language: Brazilian Portuguese (ABNT2) [http://kbdlayout.info/KBDBR/]
 
 - Datalogger_2039_File_Converter (Encoded file to decoded file):
