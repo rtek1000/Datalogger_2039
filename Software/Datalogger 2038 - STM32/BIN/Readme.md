@@ -1,6 +1,6 @@
 Burn FLASH with St-Link and Android:
 
-This file can be burned on the STM32F407VG using a smartphone Android with this ZFlasher App.
+This file (*.HEX) can be burned on the STM32F407VG using a smartphone Android with this ZFlasher App.
 (the smartphone needs to have USB OTG port).
 (Tested with St-Link v2).
 
