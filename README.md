@@ -11,9 +11,10 @@ This is an 8-channel Datalogger for collecting temperature data.
 - 54541 readings (37 days and 21 hours @ 1 minute interval).
 - Control access to settings and data export via password.
 - Export data via USBdisk (*.dat).
-- - Output file with part of the data encoded in Base64.
-- - Need to decode the data to import into a spreadsheet.
+- - Need to format the USB disk in FAT, or it will give an error.
+- - Output file with part of the data encoded in Base64. Need to decode the data to import into a spreadsheet, see the File Converter App.
 - Edit parameters via USB keyboard.
+- - Keyboard may take a few seconds to recognize.
 - Cabinet tilt monitoring.
 - Battery and charger voltage monitoring.
 - Battery polarity reversal protection.
