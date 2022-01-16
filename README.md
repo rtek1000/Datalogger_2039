@@ -5,10 +5,11 @@ This is an 8-channel Datalogger for collecting temperature data.
 
 ## Features:
 - 12-bit temperature sensor [from -55°C to +125°C (-67°F to +257°F)]
+- - Needs two cycles to reset fault (Cycle 1: Start converting; Cycle 2: Read)
 - Short circuit protection for sensors (power and data line).
 - Short-circuit protection for the USB ports (power line).
 - 56 characters channel label.
-- 54541 readings (37 days and 21 hours @ 1 minute interval).
+- 53895 readings (37 days, 10 hours and 15 minutes @ 1 minute interval).
 - Control access to settings and data export via password.
 - Export data via USBdisk (*.dat).
 - - Need to format the USB disk in FAT, or it will give an error.
