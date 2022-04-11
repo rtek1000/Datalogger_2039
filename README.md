@@ -63,6 +63,9 @@ Note:
 - - [STM32 USB training - 07 STM32 USB hardware design]
 - - https://www.youtube.com/watch?v=vwlXUOY7KY0&list=PLnMKNibPkDnFFRBVD206EfnnHhQZI4Hxa&index=7
 
+- Calibration?
+- - https://thecavepearlproject.org/2016/03/05/ds18b20-calibration-we-finally-nailed-it/
+
 Note: If the pins PA13 (SWDIO) and PA14 (SWCLK) are used (configured for another option other than the default state) it may prevent the ST-Link from working, to solve this problem, keep the BOOT0 (pin 94) in logical state high (3.3V) before energizing, or reset the microcontroller. To not need to manually change the BOOT0 pin, keep the pins PA13 (SWDIO) and PA14 (SWCLK) unused, it also cannot be configured as input.
 
 ## Licence:
