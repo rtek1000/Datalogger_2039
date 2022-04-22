@@ -1,0 +1,8 @@
+CSV usage:
+
+Convert a text file or CSV file into an Excel spreadsheet:
+https://knowledgebase.constantcontact.com/tutorials/KnowledgeBase/6269-convert-a-text-file-to-an-excel-file?lang=en_US
+
+How to import external data in WPS Spreadsheet:
+https://www.wps.com/academy/how-to-import-external-data-in-wps-spreadsheet-quick-tutorials-1861554/
+
