@@ -1,0 +1,3 @@
+- PrintScreen:
+- - Keyboard shortcut for screenshot is "Ctrl + Prt Sc"
+   (Control + Print Screen)
