@@ -1,3 +1,8 @@
+- Keyboard:
+- - Insert the keyboard into the primary USB (FS) port
+- - The "Num Lock" indicator should be turned on automatically
+
 - PrintScreen:
+- - Insert the USB flash drive device into the secondary port (HS)
 - - Keyboard shortcut for screenshot is "Ctrl + Prt Sc"
    (Control + Print Screen)
