@@ -8,7 +8,7 @@ You should have received a copy of the GNU Lesser General Public License along w
 Notes:
 - Datalogger_2039_File_Converter (Encoded file to decoded file):
 -- From *.dat file to *.csv or *.xlsx file extension
--- Editing software: B4J version: 9.30 [https://www.b4x.com/b4j.html]
+-- Editing software: SharpDevelop version: 4.4.1 [https://sourceforge.net/projects/sharpdevelop/]
 -- Initial code development language: English
 -- Using WPS Office to verify the exported file
 
