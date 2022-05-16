@@ -8,6 +8,9 @@ Notes:
 - Modification:
 -- 2022/02/12, LCD Backlight flashing, PWM frequency changed from ~300Hz to ~82kHz, (htim8.Init.Prescaler: from 539 to 1)
 
+- Datalogger_2039 - STM32 - FreeRTOS - CMSIS_V1
+-- Editing software: STM32CubeIDE version: 1.9.0 [https://www.st.com/en/development-tools/stm32cubeide.html]
+
 - Datalogger_2039_File_Converter (Encoded file to decoded file):
 -- From *.dat file to *.xlsx file extension
 -- Editing software: B4J version: 9.30 [https://www.b4x.com/b4j.html]
