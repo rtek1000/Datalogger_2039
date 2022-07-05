@@ -13,3 +13,6 @@ https://play.google.com/store/apps/details?id=ru.zdevs.zflasherstm32&hl=en_US&gl
 - - - File: ILI9341.h
 - - - From: #define ILI9341_ROTATION (ILI9341_MADCTL_MV | ILI9341_MADCTL_BGR)
 - - - To: #define ILI9341_ROTATION (ILI9341_MADCTL_MX | ILI9341_MADCTL_MY | ILI9341_MADCTL_MV | ILI9341_MADCTL_BGR)
+- - ILI9341 datasheet:
+- - - 8.2.29. Memory Access Control (36h)
+- - - 8.2.6. Read Display MADCTL (0Bh)
