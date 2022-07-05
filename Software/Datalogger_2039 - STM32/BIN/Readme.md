@@ -7,3 +7,9 @@ Burn FLASH with St-Link and Android:
 - - Tested with St-Link v2.
 
 https://play.google.com/store/apps/details?id=ru.zdevs.zflasherstm32&hl=en_US&gl=US
+
+- Image rotation:
+- - USB_HOST_HID_MSC_LCD_FLASH_RTC_ACC_TEMP3_Rotate.hex
+- - - File: ILI9341.h
+- - - To: '''#define ILI9341_ROTATION (ILI9341_MADCTL_MV | ILI9341_MADCTL_BGR)'''
+- - - From: '''#define ILI9341_ROTATION (ILI9341_MADCTL_MX | ILI9341_MADCTL_MY | ILI9341_MADCTL_MV | ILI9341_MADCTL_BGR)'''
