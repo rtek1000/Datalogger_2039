@@ -2,7 +2,7 @@ Note: Work in progress, just demonstrative, not functional, sorry.
 
 - ToDo: replace code (to solve overflow problem):
 - - From if (HAL_GetTick()	> (u32_var + 500)) {
-- - From if ((HAL_GetTick()	- u32_var) + 500) {
+- - From if ((HAL_GetTick()	- u32_var) >= 500) {
 
 # Datalogger 2039
 This is an 8-channel Datalogger for collecting temperature data.
