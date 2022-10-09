@@ -13,3 +13,10 @@ Notes:
 -- Using WPS Office to verify the exported file
 
 by Rtek1000 - 2022
+
+
+MIT License
+https://github.com/ClosedXML/ClosedXML/blob/develop/LICENSE
+
+MIT License
+https://github.com/OfficeDev/Open-XML-SDK/blob/main/LICENSE
