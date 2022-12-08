@@ -1,6 +1,11 @@
 - Keyboard:
 - - Insert the keyboard into the primary USB (FS) port
 - - The "Num Lock" indicator should be turned on automatically
+- - Quickly press the ESC key several times to reset
+
+- Button
+- - Quick pulse to change sleep state (Helps to recognize USB keyboard)
+- - Hold for more than 15 seconds to reset
 
 - PrintScreen:
 - - Insert the USB flash drive device into the secondary port (HS)
