@@ -3,6 +3,10 @@ Note: Work in progress, just demonstrative, not functional, sorry.
 - ToDo: replace code (to solve overflow problem):
 - - From if (HAL_GetTick()	> (u32_var + 500)) {
 - - From if ((HAL_GetTick()	- u32_var) >= 500) {
+-
+- Version 0.0.8 (experimental) has been checked and bugs found have been fixed
+- - Support for Wireless Mini Keyboard with Touchpad has been added
+![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Software/Datalogger_2039%20-%20STM32/BIN/Mini_Keyboard1.jpg)
 
 # Datalogger 2039
 This is an 8-channel Datalogger for collecting temperature data.
