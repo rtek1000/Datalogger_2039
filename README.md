@@ -60,6 +60,7 @@ Note: Work in progress, just demonstrative, not functional, sorry.
 - Ref.: [USB Descriptor and Request Parser](https://eleccelerator.com/usbdescreqparser/) 
 
 --------
+# Datalogger 2039
 
 ## Features:
 - 12-bit temperature sensor [from -55°C to +125°C (-67°F to +257°F)]
