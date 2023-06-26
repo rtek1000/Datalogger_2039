@@ -6,6 +6,8 @@ Note: Work in progress, just demonstrative, not functional, sorry.
 -
 - Version 0.0.8 (experimental) has been checked and bugs found have been fixed
 - - Support for Wireless Mini Keyboard with Touchpad has been added
+- - - Tested with the ABNT2 (PT-BR) character map version, it may be necessary to remap the keys for other layout versions
+
 ![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Software/Datalogger_2039%20-%20STM32/BIN/Mini_Keyboard1.jpg)
 
 # Datalogger 2039
