@@ -92,7 +92,8 @@ Note: Work in progress, just demonstrative, not functional, sorry.
 - Firmware for STM32F407VGT6 microcontroller:
 - - STM32CubeIDE - C language project (HAL).
 - File Converter:
-- - B4J - Basic language project (Java - cross platform).
+- -  ̶B̶4̶J̶ ̶-̶ ̶B̶a̶s̶i̶c̶ ̶l̶a̶n̶g̶u̶a̶g̶e̶ ̶p̶r̶o̶j̶e̶c̶t̶ ̶(̶J̶a̶v̶a̶ ̶-̶ ̶c̶r̶o̶s̶s̶ ̶p̶l̶a̶t̶f̶o̶r̶m̶)̶.̶
+- - Dot Net 4.0 - SharpDevelop 4.4.1
 
 ## Hardware:
 - STM32F407VGT6: Dual USB port microcontroller.
