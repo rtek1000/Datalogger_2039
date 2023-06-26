@@ -1,9 +1,16 @@
+# Datalogger 2039
+This is an 8-channel Datalogger for collecting temperature data.
+
+-------
+
 Note: Work in progress, just demonstrative, not functional, sorry.
 
-- ToDo:  ̶r̶e̶p̶l̶a̶c̶e̶ ̶c̶o̶d̶e̶ ̶(̶t̶o̶ ̶s̶o̶l̶v̶e̶ ̶o̶v̶e̶r̶f̶l̶o̶w̶ ̶p̶r̶o̶b̶l̶e̶m̶)̶:
+- ToDo:  ̶r̶e̶p̶l̶a̶c̶e̶ ̶c̶o̶d̶e̶ ̶(̶t̶o̶ ̶s̶o̶l̶v̶e̶ ̶o̶v̶e̶r̶f̶l̶o̶w̶ ̶p̶r̶o̶b̶l̶e̶m̶)̶: (version 0.0.7)
 - - From if (HAL_GetTick()	> (u32_var + 500)) {
 - - From if ((HAL_GetTick()	- u32_var) >= 500) {
--
+
+-------
+
 - Version 0.0.8 (experimental) has been checked and bugs found have been fixed
 
 ![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Software/Datalogger_2039%20-%20STM32/Screenshots/2023.png)
@@ -16,8 +23,7 @@ Note: Work in progress, just demonstrative, not functional, sorry.
 - File conversion app has been updated with partial language support
 ![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Software/Datalogger_2039%20-%20SharpDevelop/Screenshot.png)
 
-# Datalogger 2039
-This is an 8-channel Datalogger for collecting temperature data.
+--------
 
 ## Features:
 - 12-bit temperature sensor [from -55°C to +125°C (-67°F to +257°F)]
