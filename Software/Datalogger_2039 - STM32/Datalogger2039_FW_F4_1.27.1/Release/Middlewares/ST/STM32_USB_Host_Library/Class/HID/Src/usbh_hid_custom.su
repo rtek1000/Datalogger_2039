@@ -1,0 +1,2 @@
+../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_custom.c:24:20:USBH_HID_CustomInit	8	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_custom.c:63:26:USBH_HID_GetCustomInfo	16	static

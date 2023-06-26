@@ -1,0 +1,16 @@
+stm32f4xx_hal_msp.c:65:6:HAL_MspInit	1
+stm32f4xx_hal_msp.c:87:6:HAL_ADC_MspInit	4
+stm32f4xx_hal_msp.c:181:6:HAL_ADC_MspDeInit	4
+stm32f4xx_hal_msp.c:277:6:HAL_CRC_MspInit	2
+stm32f4xx_hal_msp.c:299:6:HAL_CRC_MspDeInit	2
+stm32f4xx_hal_msp.c:321:6:HAL_ETH_MspInit	2
+stm32f4xx_hal_msp.c:380:6:HAL_ETH_MspDeInit	2
+stm32f4xx_hal_msp.c:420:6:HAL_I2C_MspInit	3
+stm32f4xx_hal_msp.c:488:6:HAL_I2C_MspDeInit	3
+stm32f4xx_hal_msp.c:539:6:HAL_SPI_MspInit	3
+stm32f4xx_hal_msp.c:601:6:HAL_SPI_MspDeInit	3
+stm32f4xx_hal_msp.c:650:6:HAL_TIM_Base_MspInit	3
+stm32f4xx_hal_msp.c:680:6:HAL_TIM_MspPostInit	2
+stm32f4xx_hal_msp.c:712:6:HAL_TIM_Base_MspDeInit	3
+stm32f4xx_hal_msp.c:748:6:HAL_UART_MspInit	2
+stm32f4xx_hal_msp.c:787:6:HAL_UART_MspDeInit	2

@@ -1,0 +1,40 @@
+The file to burn in STM32F407VG is called \Release\ROM.HEX after compiling, check the checksum.bat file
+
+SETUP:
+
+Properties for (Project name)
+
+> C/C++ Build
+>> Settings
+>>> Build Steps
+>>>> Post-build steps:
+
+Command (for Linux: 'path/'):
+arm-none-eabi-objcopy -O ihex "${BuildArtifactFileBaseName}.elf" "${BuildArtifactFileBaseName}.hex" && ../checksum.bat ${BuildArtifactFileBaseName}.hex
+
+Command (for Windows: 'path\'):
+arm-none-eabi-objcopy -O ihex "${BuildArtifactFileBaseName}.elf" "${BuildArtifactFileBaseName}.hex" && ..\checksum.bat ${BuildArtifactFileBaseName}.hex
+
+Description:
+ROM Self-Test - SRecord
+
+
+
+$ arm-none-eabi-objcopy -h
+
+Command 'arm-none-eabi-objcopy' not found, but can be installed with:
+
+sudo apt install binutils-arm-none-eabi
+
+arm-none-eabi-objcopy --input-target=ihex --output-target=binary ROM.hex DFU.bin
+
+Ref.: https://stackoverflow.com/questions/49680382/objcopy-elf-to-bin-file/72355720#72355720
+
+For message "Program does not exist": run a Build 'Release' for project 'name_of_project' (hammer icon tool)
+
+Note:
+If the IDE does not allow HEX file configuration, close the project, edit the *.lauch file, replace the key,
+(Change the text "PROJECT_NAME_HERE" to the name of the current project):
+
+
+    <stringAttribute key="com.st.stm32cube.ide.mcu.debug.launch.loadList" value="{&quot;fItems&quot;:[{&quot;fIsFromMainTab&quot;:false,&quot;fPath&quot;:&quot;Release/ROM.hex&quot;,&quot;fProjectName&quot;:&quot;PROJECT_NAME_HERE&quot;,&quot;fBuildConfigId&quot;:&quot;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.2060275391&quot;,&quot;fPerformBuild&quot;:true,&quot;fDownload&quot;:true,&quot;fLoadSymbols&quot;:true},{&quot;fIsFromMainTab&quot;:true,&quot;fPath&quot;:&quot;Release/PROJECT_NAME_HERE.elf&quot;,&quot;fProjectName&quot;:&quot;PROJECT_NAME_HERE&quot;,&quot;fPerformBuild&quot;:true,&quot;fDownload&quot;:false,&quot;fLoadSymbols&quot;:false}]}"/>

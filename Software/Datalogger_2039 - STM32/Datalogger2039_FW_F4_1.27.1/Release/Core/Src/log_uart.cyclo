@@ -1,0 +1,3 @@
+log_uart.c:12:5:__io_putchar	1
+log_uart.c:19:5:_write	2
+log_uart.c:27:5:_read	1

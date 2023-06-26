@@ -1,0 +1,2 @@
+usbh_hid_custom.c:24:20:USBH_HID_CustomInit	2
+usbh_hid_custom.c:63:26:USBH_HID_GetCustomInfo	3

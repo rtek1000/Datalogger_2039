@@ -1,0 +1,6 @@
+../Core/Src/base64.c:60:6:a3to4	0	static
+../Core/Src/base64.c:67:6:a4to3	0	static
+../Core/Src/base64.c:73:6:BASE64_encode	40	dynamic
+../Core/Src/base64.c:115:10:BASE64_encodeLength	0	static
+../Core/Src/base64.c:119:6:BASE64_decode	40	static
+../Core/Src/base64.c:166:10:BASE64_decodeLength	8	static

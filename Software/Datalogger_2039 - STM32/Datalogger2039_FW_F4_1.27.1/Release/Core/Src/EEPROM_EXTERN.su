@@ -1,0 +1,17 @@
+../Core/Src/EEPROM_EXTERN.c:58:19:W25Q64_init	40	static
+../Core/Src/EEPROM_EXTERN.c:112:19:W25Q64_channel_erase	16	static
+../Core/Src/EEPROM_EXTERN.c:162:19:W25Q64_channel_zerofill	16	static
+../Core/Src/EEPROM_EXTERN.c:209:19:W25Q64_channel_check	272	static
+../Core/Src/EEPROM_EXTERN.c:262:19:W25Q64_channel_is_empty	16	static
+../Core/Src/EEPROM_EXTERN.c:320:19:W25Q64_update_name	288	static
+../Core/Src/EEPROM_EXTERN.c:402:19:W25Q64_read_name	264	static
+../Core/Src/EEPROM_EXTERN.c:431:19:W25Q64_update_header	296	static
+../Core/Src/EEPROM_EXTERN.c:550:19:W25Q64_read_header	264	static
+../Core/Src/EEPROM_EXTERN.c:591:19:W25Q64_write_mark	264	static
+../Core/Src/EEPROM_EXTERN.c:664:10:W25Q64_read_mark_preset	16	static
+../Core/Src/EEPROM_EXTERN.c:685:19:W25Q64_read_mark	280	static
+../Core/Src/EEPROM_EXTERN.c:796:19:W25Q64_write_data	40	static
+../Core/Src/EEPROM_EXTERN.c:869:19:W25Q64_read_data_sensor_ID	24	static
+../Core/Src/EEPROM_EXTERN.c:939:19:W25Q64_read_data	24	static
+../Core/Src/EEPROM_EXTERN.c:1009:19:W25Q64_update_config	352	static
+../Core/Src/EEPROM_EXTERN.c:1159:19:W25Q64_read_config	272	static

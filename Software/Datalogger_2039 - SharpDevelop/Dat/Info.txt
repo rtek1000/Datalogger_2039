@@ -1,0 +1,2 @@
+- The *dat (or *Dat) file is generated in the Datalogger 2039 and exported via USB Host port to Udisk (Pendrive)
+- The same file *dat (or *Dat) can contain from 1 to 8 channels.

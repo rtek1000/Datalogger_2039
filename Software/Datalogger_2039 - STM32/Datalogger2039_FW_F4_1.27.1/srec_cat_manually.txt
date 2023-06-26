@@ -1,0 +1,14 @@
+srec_cat $1 -Intel -fill 0xFF 0x08000000 0x080FFFFC -STM32 0x080FFFFC -o ROM1.hex -Intel --offset 0x8000 --line-length=44
+
+srec_cat Boot_Firm.hex -Intel -fill 0xFF 0x08000000 0x080FFFFC -STM32 0x080FFFFC -o ROM1.hex -Intel
+
+
+srec_cat FIRM1.hex -Intel -fill 0xFF 0x08000000 0x080FFFFC -crop 0x08000000 0x080FFFFC -o outputFile.hex -Intel
+srec_cat outputFile.hex -Intel -fill 0xFF 0x08000000 0x080FFFFC -STM32 0x080FFFFC -o ROM1.hex -Intel
+
+srec_cat FIRM1.hex -Intel -fill 0xFF 0x08000000 0x080FFFFC -crop 0x08000000 0x080FFFFC -STM32 0x080FFFFC -o ROM1.hex -Intel
+
+0x100000
+0x0FFFFC
+
+https://community.st.com/s/question/0D53W00001KQo7lSAD/stm32cubeide-srecord-issues-a-warning-calculation-has-at-least-one-hole
