@@ -37,9 +37,24 @@ Note: Work in progress, just demonstrative, not functional, sorry.
 
 [Failures may occur in the USB port operating as a Host](https://community.st.com/t5/stm32-mcu-products/stm32-usb-host-fails-miserably-but-arduino-mega2560-and-uno-with/td-p/569199) if the connected device lacks synchronization (not very accurate time base, such as using a ceramic resonator instead of a quartz crystal). The same device (joypad) that failed with STM32, didn't fail with Arduino and MAX3421e, can be an interesting alternative: [UHS3.0](https://github.com/felis/UHS30)
 
-- The image below shows data that the STM32 read from the device during the device recognition (enumeration) procedure, and subsequent readings are not the same. (Test [code](https://github.com/rtek1000/STM32F4HUB_modified/tree/main/Project-STM32CubeIDE_USBH_ASC/F407_USBH_ASC_GAMEPAD)):
-
+- The image below shows data that the STM32 read from the device during the device recognition (enumeration) procedure, and subsequent readings are not the same.
 ![img](https://github.com/rtek1000/Datalogger_2039/blob/main/Hardware/STM32_Fail.png)
+
+(Test [code](https://github.com/rtek1000/STM32F4HUB_modified/blob/main/Project-STM32CubeIDE_USBH_ASC/F407_USBH_ASC_GAMEPAD/F407_USBH_ASC/Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.c)):
+
+```C++
+#if PRINT_HID_REPORT_DESCRIPTOR == 1
+			USBH_UsrLog("Dump HID Report Descriptor start");
+			printf("wItemLength %d\n", HID_Handle->HID_Desc.wItemLength);
+
+			for(uint16_t i = 0; i < HID_Handle->HID_Desc.wItemLength; i++){
+				printf("0x%02X ", phost->device.Data[i]);
+			}
+
+			printf("\n");
+			USBH_UsrLog("Dump HID Report Descriptor end");
+#endif // #if PRINT_HID_REPORT_DESCRIPTOR == 1
+```
 
 --------
 
