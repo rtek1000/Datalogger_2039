@@ -1,6 +1,6 @@
 Note: Work in progress, just demonstrative, not functional, sorry.
 
-- ToDo: replace code (to solve overflow problem):
+- ToDo:  ̶r̶e̶p̶l̶a̶c̶e̶ ̶c̶o̶d̶e̶ ̶(̶t̶o̶ ̶s̶o̶l̶v̶e̶ ̶o̶v̶e̶r̶f̶l̶o̶w̶ ̶p̶r̶o̶b̶l̶e̶m̶)̶:
 - - From if (HAL_GetTick()	> (u32_var + 500)) {
 - - From if ((HAL_GetTick()	- u32_var) >= 500) {
 -
