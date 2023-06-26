@@ -5,6 +5,7 @@ Note: Work in progress, just demonstrative, not functional, sorry.
 - - From if ((HAL_GetTick()	- u32_var) >= 500) {
 -
 - Version 0.0.8 (experimental) has been checked and bugs found have been fixed
+![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Software/Datalogger_2039%20-%20STM32/Screenshots/2023.png)
 - - Support for Wireless Mini Keyboard with Touchpad has been added
 - - - Tested with the ABNT2 (PT-BR) character map version, it may be necessary to remap the keys for other layout versions
 
