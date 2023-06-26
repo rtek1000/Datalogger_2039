@@ -35,6 +35,12 @@ Note: Work in progress, just demonstrative, not functional, sorry.
 
 --------
 
+[Failures may occur in the USB port operating as a Host](https://community.st.com/t5/stm32-mcu-products/stm32-usb-host-fails-miserably-but-arduino-mega2560-and-uno-with/td-p/569199) if the connected device lacks synchronization (not very accurate time base, such as using a ceramic resonator instead of a quartz crystal.
+
+
+
+--------
+
 ## Features:
 - 12-bit temperature sensor [from -55°C to +125°C (-67°F to +257°F)]
 - - Needs two cycles to reset fault (Cycle 1: Start converting; Cycle 2: Read)
