@@ -13,6 +13,9 @@ Note: Work in progress, just demonstrative, not functional, sorry.
 
 ![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Software/Datalogger_2039%20-%20STM32/BIN/Mini_Keyboard1.jpg)
 
+- File conversion app has been updated with partial language support
+![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Software/Datalogger_2039%20-%20SharpDevelop/Screenshot.png)
+
 # Datalogger 2039
 This is an 8-channel Datalogger for collecting temperature data.
 
