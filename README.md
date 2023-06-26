@@ -57,6 +57,8 @@ Note: Work in progress, just demonstrative, not functional, sorry.
 #endif // #if PRINT_HID_REPORT_DESCRIPTOR == 1
 ```
 
+- Ref.: [USB Descriptor and Request Parser](https://eleccelerator.com/usbdescreqparser/) 
+
 --------
 
 ## Features:
