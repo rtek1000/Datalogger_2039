@@ -1,8 +1,14 @@
 Note: Work in progress, just demonstrative, not functional, sorry.
 
-- ToDo: replace code (to solve overflow problem):
+- ToDo:  ̶r̶e̶p̶l̶a̶c̶e̶ ̶c̶o̶d̶e̶ ̶(̶t̶o̶ ̶s̶o̶l̶v̶e̶ ̶o̶v̶e̶r̶f̶l̶o̶w̶ ̶p̶r̶o̶b̶l̶e̶m̶)̶:
 - - From if (HAL_GetTick()	> (u32_var + 500)) {
 - - From if ((HAL_GetTick()	- u32_var) >= 500) {
+-
+- Version 0.0.8 (experimental) has been checked and bugs found have been fixed
+- - Support for Wireless Mini Keyboard with Touchpad has been added
+- - - Tested with the ABNT2 (PT-BR) character map version, it may be necessary to remap the keys for other layout versions
+
+![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Software/Datalogger_2039%20-%20STM32/BIN/Mini_Keyboard1.jpg)
 
 # Datalogger 2039
 This is an 8-channel Datalogger for collecting temperature data.
