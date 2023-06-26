@@ -35,7 +35,7 @@ Note: Work in progress, just demonstrative, not functional, sorry.
 
 --------
 
-[Failures may occur in the USB port operating as a Host](https://community.st.com/t5/stm32-mcu-products/stm32-usb-host-fails-miserably-but-arduino-mega2560-and-uno-with/td-p/569199) if the connected device lacks synchronization (not very accurate time base, such as using a ceramic resonator instead of a quartz crystal.
+[Failures may occur in the USB port operating as a Host](https://community.st.com/t5/stm32-mcu-products/stm32-usb-host-fails-miserably-but-arduino-mega2560-and-uno-with/td-p/569199) if the connected device lacks synchronization (not very accurate time base, such as using a ceramic resonator instead of a quartz crystal. The same device (joypad) that failed with STM32, didn't fail with Arduino and MAX3421e, can be an interesting alternative: [UHS3.0](https://github.com/felis/UHS30)
 
 ![img](https://github.com/rtek1000/Datalogger_2039/blob/main/Hardware/STM32_Fail.png)
 
