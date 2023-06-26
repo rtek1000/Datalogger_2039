@@ -37,7 +37,7 @@ Note: Work in progress, just demonstrative, not functional, sorry.
 
 [Failures may occur in the USB port operating as a Host](https://community.st.com/t5/stm32-mcu-products/stm32-usb-host-fails-miserably-but-arduino-mega2560-and-uno-with/td-p/569199) if the connected device lacks synchronization (not very accurate time base, such as using a ceramic resonator instead of a quartz crystal.
 
-
+![img](https://github.com/rtek1000/Datalogger_2039/blob/main/Hardware/STM32_Fail.png)
 
 --------
 
