@@ -29,6 +29,12 @@ Note: Work in progress, just demonstrative, not functional, sorry.
 
 --------
 
+- Regarding the hardware problem in the STM32, for new projects that can use a USB HUB in the USB port operating as a Host, it may be recommended to use an external PHY: see the doc [Errata sheet](https://www.st.com/resource/en/errata_sheet/es0206-stm32f427437-and-stm32f429439-device-errata-stmicroelectronics.pdf)
+
+![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Hardware/IMG_3761.jpeg)
+
+--------
+
 ## Features:
 - 12-bit temperature sensor [from -55°C to +125°C (-67°F to +257°F)]
 - - Needs two cycles to reset fault (Cycle 1: Start converting; Cycle 2: Read)
