@@ -29,7 +29,7 @@ Note: Work in progress, just demonstrative, not functional, sorry.
 
 --------
 
-- Regarding the hardware problem in the STM32, for new projects that can use a USB HUB in the USB port operating as a Host, it may be recommended to use an [external PHY](https://community.st.com/t5/stm32-mcu-products/is-it-possible-to-use-usb-hub-with-stm32f4-using-external-phy/m-p/569817/highlight/true#M217311): see the doc [Errata sheet - ES0206 - Rev 19 - February 2023](https://www.st.com/resource/en/errata_sheet/es0206-stm32f427437-and-stm32f429439-device-errata-stmicroelectronics.pdf)
+- Regarding the hardware problem in the STM32, for new projects that can use a USB HUB in the USB port operating as a Host, it may be recommended to use an [external PHY](https://community.st.com/t5/stm32-mcu-products/is-it-possible-to-use-usb-hub-with-stm32f4-using-external-phy/m-p/569817/highlight/true#M217311): see the doc [Errata sheet - ES0206 - Rev 19 - February 2023](https://www.st.com/resource/en/errata_sheet/es0206-stm32f427437-and-stm32f429439-device-errata-stmicroelectronics.pdf). Each model may have an ERRATA document, check on the ST website under the Documentation tab.
 
 ![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Hardware/IMG_3761.jpeg)
 
