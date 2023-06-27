@@ -75,7 +75,7 @@ Each model may have an ERRATA document, check on the ST website under the Docume
 - 56 characters channel label.
 - 53895 readings (37 days, 10 hours and 15 minutes @ 1 minute interval).
 - Control access to settings and data export via password.
-- Export data via USBdisk (*.dat).
+- Export data via USBdisk (*.dat). Before removing the USB disk It is recommended to exit the Exposure screen to completely disable the USB port.
 - - Need to format the USB disk in FAT, or it will give an error.
 - - Output file with part of the data encoded in Base64. Need to decode the data to import into a spreadsheet, see the File Converter App.
 - Edit parameters via USB keyboard.
@@ -84,7 +84,7 @@ Each model may have an ERRATA document, check on the ST website under the Docume
 - Battery and charger voltage monitoring.
 - Battery polarity reversal protection (In case the Datalogger 2039 is using two batteries, it is not recommended to reverse any of them, or it may damage the battery).
 - Monitoring of data in colored graph.
-- Screenshot of graph to save to USB disk.
+- Screenshot of graph to save to USB disk (Other screens can be captured, USBdisk is triggered only during capture).
 - Multiple languages (English, Portuguese and Spanish).
 - Integrated firmware integrity check (CRC).
 - Energy saving for prolonged battery charge and durability of the LCD backlight.
