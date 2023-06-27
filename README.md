@@ -29,9 +29,14 @@ Note: Work in progress, just demonstrative, not functional, sorry.
 
 --------
 
-- Regarding the hardware problem in the STM32, for new projects that can use a USB HUB in the USB port operating as a Host, it may be recommended to use an [external PHY](https://community.st.com/t5/stm32-mcu-products/is-it-possible-to-use-usb-hub-with-stm32f4-using-external-phy/m-p/569817/highlight/true#M217311): see the doc [Errata sheet - ES0206 - Rev 19 - February 2023](https://www.st.com/resource/en/errata_sheet/es0206-stm32f427437-and-stm32f429439-device-errata-stmicroelectronics.pdf). Each model may have an ERRATA document, check on the ST website under the Documentation tab.
+- Regarding the hardware problem in the STM32, for new projects that can use a USB HUB in the USB port operating as a Host, it may be recommended to use an [external PHY](https://community.st.com/t5/stm32-mcu-products/is-it-possible-to-use-usb-hub-with-stm32f4-using-external-phy/m-p/569817/highlight/true#M217311): see the doc [Errata sheet - ES0206 - Rev 19 - February 2023](https://www.st.com/resource/en/errata_sheet/es0206-stm32f427437-and-stm32f429439-device-errata-stmicroelectronics.pdf).
 
 ![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Hardware/IMG_3761.jpeg)
+
+
+Each model may have an ERRATA document, check on the ST website under the Documentation tab. Series of STM32 can have similar functions, as for example the [F4 and F7](https://community.st.com/t5/stm32-mcu-products/is-there-any-stm32-f7-or-h7-pin-compatible-with-stm32f407vgt6/m-p/568289/highlight/true#M216887) series:
+
+![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Hardware/F4_F7_series_USB_internal_PHY.png)
 
 --------
 
