@@ -82,7 +82,7 @@ Each model may have an ERRATA document, check on the ST website under the Docume
 - - Keyboard may take a few seconds to recognize.
 - Cabinet tilt monitoring.
 - Battery and charger voltage monitoring.
-- Battery polarity reversal protection (In case the Datalogger 2039 is using two batteries, it is not recommended to reverse any of them, or it may damage the battery.).
+- Battery polarity reversal protection (In case the Datalogger 2039 is using two batteries, it is not recommended to reverse any of them, or it may damage the battery).
 - Monitoring of data in colored graph.
 - Screenshot of graph to save to USB disk.
 - Multiple languages (English, Portuguese and Spanish).
