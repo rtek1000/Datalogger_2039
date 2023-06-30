@@ -93,6 +93,7 @@ Each model may have an ERRATA document, check on the ST website under the Docume
 - - The display is activated only when the microcontroller is clocked at 168MHz.
 - - The display backlight has 3 operating states: high brightness, low brightness and off.
 - - When the sensor is read, a conversion interval of 750ms is required, during which time the microcontroller sleeps.
+- Temperature offset. On the sensors screen, press the number between 1 and 8 to open the offset adjustment screen.
 
 ## Software:
 - Firmware for STM32F407VGT6 microcontroller:
