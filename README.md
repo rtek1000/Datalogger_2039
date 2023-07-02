@@ -16,7 +16,7 @@ Note: Work in progress, just demonstrative, not functional, sorry.
 
 - Version 0.0.8 (experimental) has been checked and bugs found have been fixed
 - - Fixed the last line of the exported file
-- - Channel label can operate with more characters
+- - Channel label can operate with more characters (special characters with accent: À/Á/Ã/Â/Ä)
 - - Channel label can operate with copy and paste command (Ctrl+C/Ctrl+V)
 
 ![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Software/Datalogger_2039%20-%20STM32/Screenshots/2023.png)
