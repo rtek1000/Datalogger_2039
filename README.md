@@ -5,6 +5,8 @@ This is an 8-channel Datalogger for collecting temperature data (DS18B20 sensor)
 
 Note: Work in progress, just demonstrative, not functional, sorry.
 
+- ToDo: Add support for [TMP117](https://www.adafruit.com/product/4821) (+/-0.1°C) sensors (8CH using Multiplexer IC [TCA9548A](https://www.adafruit.com/product/2717))
+-
 - ToDo:  ̶r̶e̶p̶l̶a̶c̶e̶ ̶c̶o̶d̶e̶ ̶(̶t̶o̶ ̶s̶o̶l̶v̶e̶ ̶o̶v̶e̶r̶f̶l̶o̶w̶ ̶p̶r̶o̶b̶l̶e̶m̶)̶: (version 0.0.7)
 - - From if (HAL_GetTick()	> (u32_var + 500)) {
 - - From if ((HAL_GetTick()	- u32_var) >= 500) {
