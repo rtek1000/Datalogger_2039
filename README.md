@@ -5,7 +5,7 @@ This is an 8-channel Datalogger for collecting temperature data (DS18B20 sensor)
 
 Note: Work in progress, just demonstrative, not functional, sorry.
 
-- ToDo: Add support for [TMP117](https://www.ti.com/product/TMP117) (+/-0.1°C) sensors (8CH using Multiplexer IC [TCA9548A](https://www.sparkfun.com/products/16784))
+- ToDo: Add support for [TMP117](https://www.ti.com/product/TMP117) (+/-0.1°C; 16 bits) sensors (8CH using Multiplexer IC [TCA9548A](https://www.sparkfun.com/products/16784))
 - - TMP117 high-accuracy temperature sensor
 - - - ±0.1 °C (maximum) from –20 °C to 50 °C
 - - - ±0.15 °C (maximum) from –40 °C to 70 °C
