@@ -14,9 +14,15 @@ Note: Work in progress, just demonstrative, not functional, sorry.
 - - - ±0.3 °C (maximum) from –55 °C to +150 °C
 - - - Operating temperature range: –55 °C to +150 °C
 - - Due to the high sensitivity of the sensor, manual soldering can affect the TMP117, it may be more advisable to buy assembled PCB boards, for example [Adafruit](https://www.adafruit.com/product/4821) and [SparkFun](https://www.sparkfun.com/products/15805) boards
-- - - WSON package: [SON Temperature Profile](https://www.ti.com/lit/an/slua271b/slua271b.pdf?ts=1688392708198)
+- - - WSON package: [SON Temperature Profile](https://www.ti.com/lit/an/slua271b/slua271b.pdf)
 - - - - Rework Guidelines: "Do not reuse the part after it is removed" (Pag 16, Table 3)
-- - - DSBGA package: [BGA Temperature Profile](https://www.ti.com/lit/wp/ssyz015b/ssyz015b.pdf?ts=1688387221433)
+-
+- - - DSBGA package: [BGA Temperature Profile](https://www.ti.com/lit/wp/ssyz015b/ssyz015b.pdf)
+-
+- - - SON package ([Infineon](https://www.infineon.com/dgdl/Infineon-Additional_product_information_SON_packages-AN-v00_01-EN.pdf)): "If a defective component is detected after board assembly, the device can be removed and replaced
+by a new one. Due to possible damage while removing the component, a desoldered component
+should not be reused"
+-
 -
 - ToDo:  ̶r̶e̶p̶l̶a̶c̶e̶ ̶c̶o̶d̶e̶ ̶(̶t̶o̶ ̶s̶o̶l̶v̶e̶ ̶o̶v̶e̶r̶f̶l̶o̶w̶ ̶p̶r̶o̶b̶l̶e̶m̶)̶: (version 0.0.7)
 - - From if (HAL_GetTick()	> (u32_var + 500)) {
