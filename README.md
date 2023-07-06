@@ -32,6 +32,7 @@ should not be reused"
 - ToDo:
 - - Resolve bug that causes data collection impediment, possibly related to the IWG_Delay and USB port maintenance process.
 - - Add support for normal (+) and (-) keys (currently only keypad keys are supported) for sensor offset adjustment.
+- - Resolve the bug: when switching from one channel to another with keys F1 to F8, the state of the channel is not updated.
 - 
 - Version 0.0.8 (experimental) has been checked and bugs found have been fixed
 - - Fixed the last line of the exported file
