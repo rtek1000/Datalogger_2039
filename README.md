@@ -4,7 +4,11 @@ This is an 8-channel Datalogger for collecting temperature data (DS18B20 sensor)
 -------
 
 Note: Work in progress, just demonstrative, not functional, sorry.
-
+- ToDo :
+- - Resolve bug that causes data collection impediment, possibly related to the IWG_Delay and USB port maintenance process.
+- - Add support for normal (+) and (-) keys (currently only keypad keys are supported) for sensor offset adjustment.
+- - Resolve the bug: after activating a channel, when switching from one channel to another with keys F1 to F8, the state of the channel is not updated.
+-
 - ToDo: Add support for [TMP117](https://www.ti.com/product/TMP117) (+/-0.1°C; 16 bits) sensors (8CH using I2C Multiplexer IC [TCA9548A](https://www.sparkfun.com/products/16784))
 - - TMP117 high-accuracy temperature sensor
 - - - ±0.1 °C (maximum) from –20 °C to +50 °C
@@ -29,11 +33,6 @@ should not be reused"
 - - From if ((HAL_GetTick()	- u32_var) >= 500) {
 
 -------
-- ToDo:
-- - Resolve bug that causes data collection impediment, possibly related to the IWG_Delay and USB port maintenance process.
-- - Add support for normal (+) and (-) keys (currently only keypad keys are supported) for sensor offset adjustment.
-- - Resolve the bug: after activating a channel, when switching from one channel to another with keys F1 to F8, the state of the channel is not updated.
-- 
 - Version 0.0.8 (experimental) has been checked and bugs found have been fixed
 - - Fixed the last line of the exported file
 - - Channel label can operate with more characters (special characters with accent: À/Á/Ã/Â/Ä)
