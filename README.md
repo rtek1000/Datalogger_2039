@@ -29,7 +29,8 @@ should not be reused"
 - - From if ((HAL_GetTick()	- u32_var) >= 500) {
 
 -------
-
+- ToDo: resolve bug that causes data collection impediment, possibly related to the IWG_Delay and USB port maintenance process.
+- 
 - Version 0.0.8 (experimental) has been checked and bugs found have been fixed
 - - Fixed the last line of the exported file
 - - Channel label can operate with more characters (special characters with accent: À/Á/Ã/Â/Ä)
