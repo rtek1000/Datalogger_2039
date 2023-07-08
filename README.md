@@ -6,6 +6,8 @@ This is an 8-channel Datalogger for collecting temperature data (DS18B20 sensor)
 Note: Work in progress, just demonstrative, not functional, sorry.
 - ToDo :
 - - Find out why it is not possible to go back to version 0.0.7 after installing firmware 0.0.8.
+- - - It may be related to the W25Q64 memory data, after erasing the chip it was not possible to reproduce the fault again.
+-
 - - Resolve bug that causes data collection impediment, possibly related to the IWG_Delay and USB port maintenance process.
 - - Add support for normal (+) and (-) keys for sensor offset adjustment (currently only keypad keys are supported).
 - - Resolve bug: after activating a channel, when switching from one channel to another using keys F1 to F8, the state of the channel is not updated.
