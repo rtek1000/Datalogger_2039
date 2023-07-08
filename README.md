@@ -7,7 +7,8 @@ Note: Work in progress, just demonstrative, not functional, sorry.
 - ToDo :
 - - Resolve bug that causes data collection impediment, possibly related to the IWG_Delay and USB port maintenance process.
 - - Add support for normal (+) and (-) keys for sensor offset adjustment (currently only keypad keys are supported).
-- - Resolve the bug: after activating a channel, when switching from one channel to another using keys F1 to F8, the state of the channel is not updated.
+- - Resolve bug: after activating a channel, when switching from one channel to another using keys F1 to F8, the state of the channel is not updated.
+- - Resolve bug: in memory test, timeout occurs before all test ends.
 -
 - ToDo: Add support for [TMP117](https://www.ti.com/product/TMP117) (+/-0.1°C; 16 bits) sensors (8CH using I2C Multiplexer IC [TCA9548A](https://www.sparkfun.com/products/16784))
 - - TMP117 high-accuracy temperature sensor
