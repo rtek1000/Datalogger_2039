@@ -32,6 +32,8 @@ Note: Work in progress, just demonstrative, not functional, sorry.
 
 -------
 
+Graph screen screenshot:
+
 ![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Software/Datalogger_2039%20-%20STM32/Screenshots/2023.png)
 
 - - Support for Wireless Mini Keyboard with Touchpad has been added
