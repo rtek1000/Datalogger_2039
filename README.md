@@ -98,7 +98,7 @@ Note: If the pins PA13 (SWDIO) and PA14 (SWCLK) are used (configured for another
 
 -------
 
-Graph screen screenshot:
+LCD Graph screen screenshot:
 
 ![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Software/Datalogger_2039%20-%20STM32/Screenshots/2023.png)
 
