@@ -17,7 +17,6 @@ Note: Work in progress, just demonstrative, not functional, sorry.
 - - - On the serial port UART1 it is possible to see that an initialization loop occurs.
 - - - It may be related to the W25Q64 memory data, after erasing the W25Q64 it was not possible to reproduce the fault again.
 -
-- - Resolve bug that causes data collection impediment, possibly related to the IWG_Delay and USB port maintenance process.
 - - Add support for normal (+) and (-) keys for sensor offset adjustment (currently only keypad keys are supported).
 - - Resolve bug: after activating a channel, when switching from one channel to another using keys F1 to F8, the state of the channel is not updated.
 - - Resolve bug: in memory test, timeout occurs before all test ends.
