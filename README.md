@@ -102,7 +102,7 @@ LCD Graph screen screenshot:
 
 ![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Software/Datalogger_2039%20-%20STM32/Screenshots/2023.png)
 
-- File conversion app has been updated with partial language support
+- File conversion app (*.exe) has been updated with partial language support
   
 ![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Software/Datalogger_2039%20-%20SharpDevelop/Screenshot.png)
 
