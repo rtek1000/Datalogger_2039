@@ -7,8 +7,6 @@ Note: Work in progress, just demonstrative, not functional, sorry.
 
 -------
 
-# Datalogger 2039
-
 ## Features:
 - 12-bit temperature sensor [from -55°C to +125°C (-67°F to +257°F)]
 - - Needs two cycles to reset fault (Cycle 1: Start converting; Cycle 2: Read)
