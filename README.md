@@ -11,6 +11,8 @@ Note: Work in progress, just demonstrative, not functional, sorry.
 - - Fixed the last line of the exported file
 - - Channel label can operate with more characters (special characters with accent: À/Á/Ã/Â/Ä)
 - - Channel label can operate with copy and paste command (Ctrl+C/Ctrl+V)
+- - Support for Wireless Mini Keyboard with Touchpad has been added
+- - - Tested with the ABNT2 (PT-BR) character map version, it may be necessary to remap the keys for other layout versions
 -
 - ToDo :
 - - Find out why it is not possible to go back to version 0.0.7 after installing firmware 0.0.8.
@@ -28,9 +30,6 @@ Note: Work in progress, just demonstrative, not functional, sorry.
 Graph screen screenshot:
 
 ![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Software/Datalogger_2039%20-%20STM32/Screenshots/2023.png)
-
-- - Support for Wireless Mini Keyboard with Touchpad has been added
-- - - Tested with the ABNT2 (PT-BR) character map version, it may be necessary to remap the keys for other layout versions
 
 - File conversion app has been updated with partial language support
   
