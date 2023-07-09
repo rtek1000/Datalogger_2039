@@ -25,3 +25,7 @@ should not be reused"
 - Interface adapter:
 
 ![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Hardware/TMP117/Datalogger2039_TMP117_adapter/Datalogger2039_TMP117_adapter_1.png)
+
+- Interface schematic:
+
+![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Hardware/TMP117/Datalogger2039_TMP117_adapter/Datalogger2039_TMP117_adapter_Main_Schematic.png)
