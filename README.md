@@ -7,7 +7,7 @@ Note: Work in progress, just demonstrative, not functional, sorry.
 
 -------
 
-- Version 0.0.8 (experimental) has been checked and bugs found have been fixed
+- Version 0.0.8 (experimental)
 - - Fixed the last line of the exported file
 - - Channel label can operate with more characters (special characters with accent: À/Á/Ã/Â/Ä)
 - - Channel label can operate with copy and paste command (Ctrl+C/Ctrl+V)
