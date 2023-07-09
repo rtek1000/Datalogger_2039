@@ -120,7 +120,7 @@ Each model may have an ERRATA document, check on the ST website under the Docume
 
 --------
 
-[Failures may occur in the USB port operating as a Host](https://community.st.com/t5/stm32-mcu-products/stm32-usb-host-fails-miserably-but-arduino-mega2560-and-uno-with/td-p/569199) if the connected device lacks synchronization (not very accurate time base, such as using a ceramic resonator instead of a quartz crystal). The same device (joypad) that failed with STM32, didn't fail with Arduino and MAX3421e, can be an interesting alternative: [UHS3.0](https://github.com/felis/UHS30)
+[Failures may occur in the USB port operating as a Host](https://community.st.com/t5/stm32-mcu-products/stm32-usb-host-fails-miserably-but-arduino-mega2560-and-uno-with/td-p/569199) if the connected device lacks synchronization (not very accurate time base, such as using a ceramic resonator instead of a quartz crystal). The same device (joypad) that failed with STM32, didn't fail with Arduino and MAX3421e, can be an interesting alternative, library: [UHS3.0](https://github.com/felis/UHS30)
 
 - The image below shows data that the STM32 read from the device during the device recognition (enumeration) procedure, and subsequent readings are not the same.
 
