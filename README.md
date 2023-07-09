@@ -7,73 +7,6 @@ Note: Work in progress, just demonstrative, not functional, sorry.
 
 -------
 
-- Version 0.0.8 (experimental)
-- - Fixed the last line of the exported file
-- - Channel label can operate with more characters (special characters with accent: À/Á/Ã/Â/Ä)
-- - Channel label can operate with copy and paste command (Ctrl+C/Ctrl+V)
-- - Support for Wireless Mini Keyboard with Touchpad has been added
-- - - Tested with the ABNT2 (PT-BR) character map version, it may be necessary to remap the keys for other layout versions
--
-- ToDo :
-- - Find out why it is not possible to go back to version 0.0.7 after installing firmware 0.0.8.
-- - - On the serial port UART1 it is possible to see that an initialization loop occurs.
-- - - It may be related to the W25Q64 memory data, after erasing the W25Q64 it was not possible to reproduce the fault again.
--
-- - Add support for normal (+) and (-) keys for sensor offset adjustment (currently only keypad keys are supported).
-- - Resolve bug: after activating a channel, when switching from one channel to another using keys F1 to F8, the state of the channel is not updated.
-- - Resolve bug: in memory test, timeout occurs before all test ends.
--
-- ToDo: Add support for [TMP117](https://www.ti.com/product/TMP117) (+/-0.1°C; 16 bits) sensors (8CH using I2C Multiplexer IC [TCA9548A](https://www.sparkfun.com/products/16784)). More info [here](https://github.com/rtek1000/Datalogger_2039/blob/main/Hardware/TMP117/README.md).
-
--------
-
-Graph screen screenshot:
-
-![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Software/Datalogger_2039%20-%20STM32/Screenshots/2023.png)
-
-- File conversion app has been updated with partial language support
-  
-![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Software/Datalogger_2039%20-%20SharpDevelop/Screenshot.png)
-
---------
-## STM32 internal hardware:
-
-- Regarding the hardware problem in the STM32, for new projects that can use a USB HUB in the USB port operating as a Host, it may be recommended to use an [external PHY](https://community.st.com/t5/stm32-mcu-products/is-it-possible-to-use-usb-hub-with-stm32f4-using-external-phy/m-p/569817/highlight/true#M217311): see the doc [Errata sheet - ES0206 - Rev 19 - February 2023](https://www.st.com/resource/en/errata_sheet/es0206-stm32f427437-and-stm32f429439-device-errata-stmicroelectronics.pdf).
-
-![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Hardware/IMG_3761.jpeg)
-
-
-Each model may have an ERRATA document, check on the ST website under the Documentation tab. Series of STM32 can have similar functions, as for example the [F4 and F7](https://community.st.com/t5/stm32-mcu-products/is-there-any-stm32-f7-or-h7-pin-compatible-with-stm32f407vgt6/m-p/568289/highlight/true#M216887) series:
-
-![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Hardware/F4_F7_series_USB_internal_PHY.png)
-
---------
-
-[Failures may occur in the USB port operating as a Host](https://community.st.com/t5/stm32-mcu-products/stm32-usb-host-fails-miserably-but-arduino-mega2560-and-uno-with/td-p/569199) if the connected device lacks synchronization (not very accurate time base, such as using a ceramic resonator instead of a quartz crystal). The same device (joypad) that failed with STM32, didn't fail with Arduino and MAX3421e, can be an interesting alternative: [UHS3.0](https://github.com/felis/UHS30)
-
-- The image below shows data that the STM32 read from the device during the device recognition (enumeration) procedure, and subsequent readings are not the same.
-
-![img](https://github.com/rtek1000/Datalogger_2039/blob/main/Hardware/STM32_Fail.png)
-
-(Test [code](https://github.com/rtek1000/STM32F4HUB_modified/blob/main/Project-STM32CubeIDE_USBH_ASC/F407_USBH_ASC_GAMEPAD/F407_USBH_ASC/Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.c)):
-
-```C++
-#if PRINT_HID_REPORT_DESCRIPTOR == 1
-			USBH_UsrLog("Dump HID Report Descriptor start");
-			printf("wItemLength %d\n", HID_Handle->HID_Desc.wItemLength);
-
-			for(uint16_t i = 0; i < HID_Handle->HID_Desc.wItemLength; i++){
-				printf("0x%02X ", phost->device.Data[i]);
-			}
-
-			printf("\n");
-			USBH_UsrLog("Dump HID Report Descriptor end");
-#endif // #if PRINT_HID_REPORT_DESCRIPTOR == 1
-```
-
-- Ref.: [USB Descriptor and Request Parser](https://eleccelerator.com/usbdescreqparser/) 
-
---------
 # Datalogger 2039
 
 ## Features:
@@ -142,6 +75,76 @@ Note:
 - - https://thecavepearlproject.org/2016/03/05/ds18b20-calibration-we-finally-nailed-it/
 
 Note: If the pins PA13 (SWDIO) and PA14 (SWCLK) are used (configured for another option other than the default state) it may prevent the ST-Link from working, to solve this problem, keep the BOOT0 (pin 94) in logical state high (3.3V) before energizing, or reset the microcontroller. To not need to manually change the BOOT0 pin, keep the pins PA13 (SWDIO) and PA14 (SWCLK) unused, it also cannot be configured as input.
+
+-------
+
+- Version 0.0.8 (experimental)
+- - Fixed the last line of the exported file
+- - Channel label can operate with more characters (special characters with accent: À/Á/Ã/Â/Ä)
+- - Channel label can operate with copy and paste command (Ctrl+C/Ctrl+V)
+- - Support for Wireless Mini Keyboard with Touchpad has been added
+- - - Tested with the ABNT2 (PT-BR) character map version, it may be necessary to remap the keys for other layout versions
+-
+- ToDo :
+- - Find out why it is not possible to go back to version 0.0.7 after installing firmware 0.0.8.
+- - - On the serial port UART1 it is possible to see that an initialization loop occurs.
+- - - It may be related to the W25Q64 memory data, after erasing the W25Q64 it was not possible to reproduce the fault again.
+-
+- - Add support for normal (+) and (-) keys for sensor offset adjustment (currently only keypad keys are supported).
+- - Resolve bug: after activating a channel, when switching from one channel to another using keys F1 to F8, the state of the channel is not updated.
+- - Resolve bug: in memory test, timeout occurs before all test ends.
+-
+- ToDo: Add support for [TMP117](https://www.ti.com/product/TMP117) (+/-0.1°C; 16 bits) sensors (8CH using I2C Multiplexer IC [TCA9548A](https://www.sparkfun.com/products/16784)). More info [here](https://github.com/rtek1000/Datalogger_2039/blob/main/Hardware/TMP117/README.md).
+
+-------
+
+Graph screen screenshot:
+
+![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Software/Datalogger_2039%20-%20STM32/Screenshots/2023.png)
+
+- File conversion app has been updated with partial language support
+  
+![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Software/Datalogger_2039%20-%20SharpDevelop/Screenshot.png)
+
+--------
+## STM32 internal hardware:
+
+- Regarding the hardware problem in the STM32, for new projects that can use a USB HUB in the USB port operating as a Host, it may be recommended to use an [external PHY](https://community.st.com/t5/stm32-mcu-products/is-it-possible-to-use-usb-hub-with-stm32f4-using-external-phy/m-p/569817/highlight/true#M217311): see the doc [Errata sheet - ES0206 - Rev 19 - February 2023](https://www.st.com/resource/en/errata_sheet/es0206-stm32f427437-and-stm32f429439-device-errata-stmicroelectronics.pdf).
+
+![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Hardware/IMG_3761.jpeg)
+
+
+Each model may have an ERRATA document, check on the ST website under the Documentation tab. Series of STM32 can have similar functions, as for example the [F4 and F7](https://community.st.com/t5/stm32-mcu-products/is-there-any-stm32-f7-or-h7-pin-compatible-with-stm32f407vgt6/m-p/568289/highlight/true#M216887) series:
+
+![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Hardware/F4_F7_series_USB_internal_PHY.png)
+
+--------
+
+[Failures may occur in the USB port operating as a Host](https://community.st.com/t5/stm32-mcu-products/stm32-usb-host-fails-miserably-but-arduino-mega2560-and-uno-with/td-p/569199) if the connected device lacks synchronization (not very accurate time base, such as using a ceramic resonator instead of a quartz crystal). The same device (joypad) that failed with STM32, didn't fail with Arduino and MAX3421e, can be an interesting alternative: [UHS3.0](https://github.com/felis/UHS30)
+
+- The image below shows data that the STM32 read from the device during the device recognition (enumeration) procedure, and subsequent readings are not the same.
+
+![img](https://github.com/rtek1000/Datalogger_2039/blob/main/Hardware/STM32_Fail.png)
+
+(Test [code](https://github.com/rtek1000/STM32F4HUB_modified/blob/main/Project-STM32CubeIDE_USBH_ASC/F407_USBH_ASC_GAMEPAD/F407_USBH_ASC/Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.c)):
+
+```C++
+#if PRINT_HID_REPORT_DESCRIPTOR == 1
+			USBH_UsrLog("Dump HID Report Descriptor start");
+			printf("wItemLength %d\n", HID_Handle->HID_Desc.wItemLength);
+
+			for(uint16_t i = 0; i < HID_Handle->HID_Desc.wItemLength; i++){
+				printf("0x%02X ", phost->device.Data[i]);
+			}
+
+			printf("\n");
+			USBH_UsrLog("Dump HID Report Descriptor end");
+#endif // #if PRINT_HID_REPORT_DESCRIPTOR == 1
+```
+
+- Ref.: [USB Descriptor and Request Parser](https://eleccelerator.com/usbdescreqparser/) 
+
+--------
 
 ## Licence:
 
