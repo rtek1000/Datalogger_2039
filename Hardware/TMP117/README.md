@@ -12,7 +12,7 @@
 -
 - - - DSBGA package: [BGA Temperature Profile](https://www.ti.com/lit/wp/ssyz015b/ssyz015b.pdf)
 -
-- - - SON package ([Infineon](https://www.infineon.com/dgdl/Infineon-Additional_product_information_SON_packages-AN-v00_01-EN.pdf)): "If a defective component is detected after board assembly, the device can be removed and replaced
+- - - SON package ([Infineon](https://www.infineon.com/dgdl/Infineon-Additional_product_information_SON_packages-AN-v00_01-EN.pdf?fileId=db3a30433e82b1cf013e82faab2000e5)): "If a defective component is detected after board assembly, the device can be removed and replaced
 by a new one. Due to possible damage while removing the component, a desoldered component
 should not be reused"
 -
