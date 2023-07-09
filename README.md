@@ -4,6 +4,14 @@ This is an 8-channel Datalogger for collecting temperature data (DS18B20 sensor)
 -------
 
 Note: Work in progress, just demonstrative, not functional, sorry.
+
+-------
+
+- Version 0.0.8 (experimental) has been checked and bugs found have been fixed
+- - Fixed the last line of the exported file
+- - Channel label can operate with more characters (special characters with accent: À/Á/Ã/Â/Ä)
+- - Channel label can operate with copy and paste command (Ctrl+C/Ctrl+V)
+-
 - ToDo :
 - - Find out why it is not possible to go back to version 0.0.7 after installing firmware 0.0.8.
 - - - On the serial port UART1 it is possible to see that an initialization loop occurs.
@@ -16,16 +24,13 @@ Note: Work in progress, just demonstrative, not functional, sorry.
 -
 - ToDo: Add support for [TMP117](https://www.ti.com/product/TMP117) (+/-0.1°C; 16 bits) sensors (8CH using I2C Multiplexer IC [TCA9548A](https://www.sparkfun.com/products/16784)). More info [here](https://github.com/rtek1000/Datalogger_2039/blob/main/Hardware/TMP117/README.md).
 
--
+-------
+
 - ToDo:  ̶r̶e̶p̶l̶a̶c̶e̶ ̶c̶o̶d̶e̶ ̶(̶t̶o̶ ̶s̶o̶l̶v̶e̶ ̶o̶v̶e̶r̶f̶l̶o̶w̶ ̶p̶r̶o̶b̶l̶e̶m̶)̶: (version 0.0.7)
 - - From if (HAL_GetTick()	> (u32_var + 500)) {
 - - From if ((HAL_GetTick()	- u32_var) >= 500) {
 
 -------
-- Version 0.0.8 (experimental) has been checked and bugs found have been fixed
-- - Fixed the last line of the exported file
-- - Channel label can operate with more characters (special characters with accent: À/Á/Ã/Â/Ä)
-- - Channel label can operate with copy and paste command (Ctrl+C/Ctrl+V)
 
 ![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Software/Datalogger_2039%20-%20STM32/Screenshots/2023.png)
 
