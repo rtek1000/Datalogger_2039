@@ -21,3 +21,7 @@ should not be reused"
 - TMP117 Custom Board:
 
 ![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Hardware/TMP117/TMP117_Custom_Board/TMP117_custom_board/TMP117_custom_board_Top2.png)
+
+- Interface adapter:
+
+![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Hardware/TMP117/Datalogger2039_TMP117_adapter/Datalogger2039_TMP117_adapter_1.png)
