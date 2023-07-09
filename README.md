@@ -8,7 +8,7 @@ This is an 8-channel Datalogger for collecting temperature data (digital sensor)
 -------
 
 ## Features:
-- 12-bit temperature sensor [from -55°C to +125°C (-67°F to +257°F)]
+- 12-bit temperature sensor [DS18B20 from -55°C to +125°C (-67°F to +257°F)]
 - - Needs two cycles to reset fault (Cycle 1: Start converting; Cycle 2: Read)
 - Short circuit protection for sensors (power and data line).
 - Short-circuit protection for the USB ports (power line).
