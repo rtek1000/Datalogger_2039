@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/media/user/HDD_1TB_P2/Pasta_300GB_P1/1- Datalogger Tiago/TMP117/Datalogger2039_adapter/TMP117_custom_board/TMP117_custom_board.kicad_sch</source>
+    <date>ter 04 jul 2023 10:29:19</date>
+    <tool>Eeschema 7.0.2-6a45011f42~172~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>TMP117_custom_board.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="AD1">
+      <value>SolderJumper_3_Bridged12</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TMP117_custom_board.kicad_sch"/>
+      <property name="ki_description" value="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b85ac971-56e0-461b-b0be-a75b7ec36601</tstamps>
+    </comp>
+    <comp ref="AD2">
+      <value>SolderJumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TMP117_custom_board.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 3-pole, open"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f99562a-9147-4b86-bf13-266e4343bde4</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>ESP32:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB">C387941</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB" value="C387941"/>
+      <property name="Field5" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TMP117_custom_board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59560010-e7b3-4285-8ede-649238a59c44</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB">C2837379</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="JLCPCB" value="C2837379"/>
+      <property name="Field5" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TMP117_custom_board.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ef99735-7026-4308-a2da-f65916d66071</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x06</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TMP117_custom_board.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d892097-0450-4483-8c36-cbb867b2d2c0</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>SolderJumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TMP117_custom_board.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87437e2c-14b8-414e-bad5-c4ba856191d5</tstamps>
+    </comp>
+    <comp ref="PROT1">
+      <value>USBLC6-4SC6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/usblc6-4.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C111212</field>
+      </fields>
+      <libsource lib="Power_Protection" part="USBLC6-4SC6" description="Very low capacitance ESD protection diode, 4 data-line, SOT-23-6"/>
+      <property name="JLCPCB" value="C111212"/>
+      <property name="Field5" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TMP117_custom_board.kicad_sch"/>
+      <property name="ki_description" value="Very low capacitance ESD protection diode, 4 data-line, SOT-23-6"/>
+      <property name="ki_keywords" value="usb ethernet sim card video"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1422fd85-1979-444a-9ec8-5e9302b9e977</tstamps>
+    </comp>
+    <comp ref="PU1">
+      <value>SolderJumper_3_Bridged123</value>
+      <footprint>ESP32:SolderJumper-3_P1.3mm_Bridged123_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged123" description="Solder Jumper, 3-pole, pins 1+2+3 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TMP117_custom_board.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 3-pole, pins 1+2+3 closed/bridged"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6329d930-1610-4075-9f3a-3db685a3de8d</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB">C116677</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB" value="C116677"/>
+      <property name="Field5" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TMP117_custom_board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23ced356-bba1-4bba-a544-3c129f530fc0</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB">C116677</field>
+        <field name="LCSC Part #">C116677</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB" value="C116677"/>
+      <property name="Field5" value=""/>
+      <property name="LCSC Part #" value="C116677"/>
+      <property name="Field7" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TMP117_custom_board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1bc561b4-724f-4eb9-b31b-dbcf2fdf295b</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB">C3016318</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB" value="C3016318"/>
+      <property name="Field5" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TMP117_custom_board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>366e4a07-ca78-42de-8aaf-02026c3d8592</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB">C3016318</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB" value="C3016318"/>
+      <property name="Field5" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TMP117_custom_board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd736f4a-d294-47a6-a298-2ec16e5918e4</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="JLCPCB">C3016283</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB" value="C3016283"/>
+      <property name="Field5" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TMP117_custom_board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64325ef8-6808-4790-844b-fbc7f0bea2ed</tstamps>
+    </comp>
+    <comp ref="SENS1">
+      <value>TMP117AIDRVR</value>
+      <footprint>TMP117:DRV0006B2</footprint>
+      <datasheet>TMP117AIDRVR</datasheet>
+      <fields>
+        <field name="JLCPCB">C699536</field>
+      </fields>
+      <libsource lib="TMP117" part="TMP117AIDRVR" description=""/>
+      <property name="JLCPCB" value="C699536"/>
+      <property name="Field5" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TMP117_custom_board.kicad_sch"/>
+      <property name="ki_keywords" value="TMP117AIDRVR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e207ac8-ecc2-404b-bc30-5e1273e323f2</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Bridged">
+      <description>Solder Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Bridged</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Bridged12">
+      <description>3-pole Solder Jumper, pins 1+2 closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Bridged12</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Bridged123">
+      <description>Solder Jumper, 3-pole, pins 1+2+3 closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged123*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Bridged123</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Open">
+      <description>Solder Jumper, 3-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Protection" part="USBLC6-4SC6">
+      <description>Very low capacitance ESD protection diode, 4 data-line, SOT-23-6</description>
+      <docs>https://www.st.com/resource/en/datasheet/usblc6-4.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USBLC6-4SC6</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/usblc6-4.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I/O1" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="I/O2" type="passive"/>
+        <pin num="4" name="I/O3" type="passive"/>
+        <pin num="5" name="VBUS" type="passive"/>
+        <pin num="6" name="I/O4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMP117" part="TMP117AIDRVR">
+      <docs>TMP117AIDRVR</docs>
+      <footprints>
+        <fp>DRV0006B</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TMP117AIDRVR</field>
+        <field name="Footprint">DRV0006B</field>
+        <field name="Datasheet">TMP117AIDRVR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL" type="open_collector"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="ALERT" type="open_collector"/>
+        <pin num="4" name="ADD0" type="input"/>
+        <pin num="5" name="V+" type="power_in"/>
+        <pin num="6" name="SDA" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>/usr/share/kicad/symbols//Power_Protection.kicad_sym</uri>
+    </library>
+    <library logical="TMP117">
+      <uri>/media/user/HDD_1TB_P2/Pasta_300GB_P1/1- Datalogger Tiago/TMP117/Datalogger2039_adapter/TMP117_custom_board/TMP117.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/ADDR">
+      <node ref="AD1" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="AD2" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="PROT1" pin="4" pinfunction="I/O3" pintype="passive"/>
+      <node ref="SENS1" pin="4" pinfunction="ADD0" pintype="input"/>
+    </net>
+    <net code="2" name="/ALERT">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="PROT1" pin="3" pinfunction="I/O2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="SENS1" pin="3" pinfunction="ALERT" pintype="open_collector"/>
+    </net>
+    <net code="3" name="/SCL">
+      <node ref="AD2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="PROT1" pin="1" pinfunction="I/O1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="SENS1" pin="1" pinfunction="SCL" pintype="open_collector"/>
+    </net>
+    <net code="4" name="/SDA">
+      <node ref="AD1" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="PROT1" pin="6" pinfunction="I/O4" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="SENS1" pin="6" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="AD1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="PROT1" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="SENS1" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="6" name="Net-(AD2-B)">
+      <node ref="AD2" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(LED1-A)">
+      <node ref="LED1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(PU1-A)">
+      <node ref="PU1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(PU1-B)">
+      <node ref="PU1" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="VDD">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="LED1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="PROT1" pin="5" pinfunction="VBUS" pintype="passive"/>
+      <node ref="PU1" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="SENS1" pin="5" pinfunction="V+" pintype="power_in"/>
+    </net>
+  </nets>
+</export>
