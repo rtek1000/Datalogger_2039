@@ -34,9 +34,10 @@ should not be reused"
 -
 - - Maybe the 138°C soldering (Sn/Bi) could be used to prevent damage to the sensor and perhaps allow reuse after the sensor is removed from the board (possibly applicable for model with letter M, TMP117M, working temperature 0°C to 85°C only).
  
-TMP117 Custom Board:
+- TMP117 Custom Board:
+
 ![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Hardware/TMP117/TMP117_Custom_Board/TMP117_custom_board/TMP117_custom_board_Top2.png)
--
+
 -
 - ToDo:  ̶r̶e̶p̶l̶a̶c̶e̶ ̶c̶o̶d̶e̶ ̶(̶t̶o̶ ̶s̶o̶l̶v̶e̶ ̶o̶v̶e̶r̶f̶l̶o̶w̶ ̶p̶r̶o̶b̶l̶e̶m̶)̶: (version 0.0.7)
 - - From if (HAL_GetTick()	> (u32_var + 500)) {
