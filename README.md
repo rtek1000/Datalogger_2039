@@ -1,5 +1,5 @@
 # Datalogger 2039
-This is an 8-channel Datalogger for collecting temperature data (DS18B20 sensor).
+This is an 8-channel Datalogger for collecting temperature data (digital sensor).
 
 -------
 
