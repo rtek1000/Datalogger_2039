@@ -32,8 +32,6 @@ Graph screen screenshot:
 - - Support for Wireless Mini Keyboard with Touchpad has been added
 - - - Tested with the ABNT2 (PT-BR) character map version, it may be necessary to remap the keys for other layout versions
 
-![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Software/Datalogger_2039%20-%20STM32/BIN/Mini_Keyboard1.jpg)
-
 - File conversion app has been updated with partial language support
   
 ![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Software/Datalogger_2039%20-%20SharpDevelop/Screenshot.png)
