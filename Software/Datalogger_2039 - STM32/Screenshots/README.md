@@ -1,5 +1,5 @@
 
-The Datalogger generates BMP files when it captures the screen with the PrintScreen keyboard command. But GitHub works best with JPG, so the BMP images were converted to JPG using the command line below on Linux:
+The Datalogger generates BMP files when it captures the screen with the PrintScreen keyboard command. But GitHub works best with PNG, so the BMP images were converted to PNG using the command line below on Linux:
 
 >mogrify -quality 100 -format png *.bmp
 
