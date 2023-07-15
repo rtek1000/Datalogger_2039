@@ -77,12 +77,13 @@ Note: If the pins PA13 (SWDIO) and PA14 (SWCLK) are used (configured for another
 -------
 
 #### ToDo
-- - Find out why it is not possible to go back to version 0.0.7 after installing firmware 0.0.8.
-- - - On the serial port UART1 it is possible to see that an initialization loop occurs.
-- - - It may be related to the W25Q64 memory data, after erasing the W25Q64 it was not possible to reproduce the fault again.
+- Find out why it is not possible to go back to version 0.0.7 after installing firmware 0.0.8.
+- - On the serial port UART1 it is possible to see that an initialization loop occurs.
+- - It may be related to the W25Q64 memory data, after erasing the W25Q64 it was not possible to reproduce the fault again.
 -
-- - Resolve bug: after activating a channel, when switching from one channel to another using keys F1 to F8, the state of the channel is not updated.
-- - Add prefix to the name of files generated with PrintScreen.
+- Resolve bug: after activating a channel, when switching from one channel to another using keys F1 to F8, the state of the channel is not updated.
+- 
+- Add prefix to the name of files generated with PrintScreen.
 -
 - Add support for [TMP117](https://www.ti.com/product/TMP117) (+/-0.1°C; 16 bits) sensors (8CH using I2C Multiplexer IC [TCA9548A](https://www.sparkfun.com/products/16784)). More info [here](https://github.com/rtek1000/Datalogger_2039/blob/main/Hardware/TMP117/README.md).
 -
