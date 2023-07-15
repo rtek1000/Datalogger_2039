@@ -90,11 +90,11 @@ Note: If the pins PA13 (SWDIO) and PA14 (SWCLK) are used (configured for another
 - Add / Implement drivers for I2C and SPI peripherals using DMA.
 -
 - Note: Fixes and improvements noted in the changelog.txt file.
--
-- Note: To go back to version 0.0.7 after installing firmware 0.0.8:
-- - Version 0.0.7 does not support the wireless mini keyboard with touchpad built in.
-- - On the serial port UART1 it is possible to see that an initialization loop occurs.
-- - Need to use normal USB keyboard without built-in touchpad.
+
+#### Note: To go back to version 0.0.7 after installing firmware 0.0.8:
+- Version 0.0.7 does not support the wireless mini keyboard with touchpad built in.
+- On the serial port UART1 it is possible to see that an initialization loop occurs.
+- Need to use normal USB keyboard without built-in touchpad.
 
 -------
 
