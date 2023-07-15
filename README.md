@@ -75,8 +75,8 @@ Note:
 Note: If the pins PA13 (SWDIO) and PA14 (SWCLK) are used (configured for another option other than the default state) it may prevent the ST-Link from working, to solve this problem, keep the BOOT0 (pin 94) in logical state high (3.3V) before energizing, or reset the microcontroller. To not need to manually change the BOOT0 pin, keep the pins PA13 (SWDIO) and PA14 (SWCLK) unused, it also cannot be configured as input.
 
 -------
--
-- ToDo :
+
+#### ToDo
 - - Find out why it is not possible to go back to version 0.0.7 after installing firmware 0.0.8.
 - - - On the serial port UART1 it is possible to see that an initialization loop occurs.
 - - - It may be related to the W25Q64 memory data, after erasing the W25Q64 it was not possible to reproduce the fault again.
