@@ -100,7 +100,7 @@ Note: If the pins PA13 (SWDIO) and PA14 (SWCLK) are used (configured for another
 
 LCD Graph screen screenshot:
 
-![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Software/Datalogger_2039%20-%20STM32/Screenshots/2023.png)
+![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/main/Software/Datalogger_2039%20-%20STM32/Screenshots/Chart-2023.06.26_05.24.07.png)
 
 - File conversion app (*.exe) has been updated with partial language support
   
