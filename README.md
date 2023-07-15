@@ -84,6 +84,7 @@ Note: If the pins PA13 (SWDIO) and PA14 (SWCLK) are used (configured for another
 - Add support for [TMP117](https://www.ti.com/product/TMP117) (+/-0.1°C; 16 bits) sensors (8CH using I2C Multiplexer IC [TCA9548A](https://www.sparkfun.com/products/16784)). More info [here](https://github.com/rtek1000/Datalogger_2039/blob/main/Hardware/TMP117/README.md).
 -
 - Bug found: after activating a channel, when switching from one channel to another using keys F1 to F8, the state of the channel is not updated.
+- Bug found: battery disconnected error is not reported in version 0.0.8 (in version 0.0.7 it works)
 -
 - Note: Fixes and improvements noted in the changelog.txt file.
 
