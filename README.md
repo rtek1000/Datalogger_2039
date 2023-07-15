@@ -3,7 +3,7 @@ This is an 8-channel Datalogger for collecting temperature data (digital sensor)
 
 -------
 
-- Note: Work in progress, just demonstrative, not functional, sorry.
+- Note: Work in progress, just demonstrative, not (fully) functional, sorry.
 
 -------
 
