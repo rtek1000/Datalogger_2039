@@ -91,7 +91,7 @@ Note: If the pins PA13 (SWDIO) and PA14 (SWCLK) are used (configured for another
 ### Downgrade firmware
 
 Note: To go back to version 0.0.7 after installing firmware 0.0.8:
-- Version 0.0.7 does not support the wireless mini keyboard with touchpad built in.
+- Version 0.0.7 does not support the [Wireless Mini Keyboard with Touchpad built in](https://github.com/rtek1000/Datalogger_2039/blob/main/Hardware/Mini_Keyboard1.jpg).
 - On the serial port UART1 it is possible to see that an initialization loop occurs.
 - User needs to use normal USB keyboard without built-in touchpad.
 
