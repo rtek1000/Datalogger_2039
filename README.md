@@ -75,13 +75,6 @@ Note:
 Note: If the pins PA13 (SWDIO) and PA14 (SWCLK) are used (configured for another option other than the default state) it may prevent the ST-Link from working, to solve this problem, keep the BOOT0 (pin 94) in logical state high (3.3V) before energizing, or reset the microcontroller. To not need to manually change the BOOT0 pin, keep the pins PA13 (SWDIO) and PA14 (SWCLK) unused, it also cannot be configured as input.
 
 -------
-
-- Version 0.0.8 (experimental)
-- - Fixed the last line of the exported file
-- - Channel label can operate with more characters (special characters with accent: À/Á/Ã/Â/Ä)
-- - Channel label can operate with copy and paste command (Ctrl+C/Ctrl+V)
-- - Support for Wireless Mini Keyboard with Touchpad has been added
-- - - Tested with the ABNT2 (PT-BR) character map version, it may be necessary to remap the keys for other layout versions
 -
 - ToDo :
 - - Find out why it is not possible to go back to version 0.0.7 after installing firmware 0.0.8.
