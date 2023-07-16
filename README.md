@@ -98,7 +98,7 @@ Note: To go back to version 0.0.7 after installing firmware 0.0.8:
 -
 - Version 0.0.7 enables USB ports differently than version 0.0.8.
 - - If the battery is disconnected or low charge, infinite loop may occur when booting.
-- - On the serial port UART1 it is possible to see that an infinite initialization loop occurs.
+- - On the serial port UART1 it is possible to see that an infinite initialization loop occurs (via [PuTTy](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) 115200 bauds).
 - - Display backlight does not turn on.
 - - The user can disconnect the keyboard to verify that the problem stops occurring.
 - - The charger does not have enough power to activate the DC-DC converter with the USB ports enabled.
