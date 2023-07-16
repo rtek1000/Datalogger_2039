@@ -2,6 +2,7 @@
 - This is an 8-channel logger for collecting temperature data (431 160 readings).
 - Data export via USB Flash Drive (Pendrive).
 - Digital sensor.
+- Project started in Jan/2019.
   
 -------
 
