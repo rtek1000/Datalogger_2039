@@ -35,4 +35,7 @@
 - Fixed memory test screen timeout to return to main screen, main.c file
 - Added beep after completion of memory test
 - Increased the interval between repeated beeps from 25ms to 150ms
+- Fixed missing PULL-UP on CHARGER_STATE pin, does not recognize battery error, main.c file
+- Added timeout for battery error beep (30s/ReCycle:5min), SCREEN.c file
+- Added beep skip for battery error (ESC key), (ReCycle:5min)
 
