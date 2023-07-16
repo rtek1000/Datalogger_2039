@@ -103,7 +103,7 @@ Note: To go back to version 0.0.7 after installing firmware 0.0.8:
 - - The battery charger does not have enough power to activate the DC-DC converter with the USB ports enabled.
 - - Display backlight does not turn on.
 - - The user can disconnect the keyboard to verify that the problem stops occurring.
-- - User needs to provide functional battery for normal operation of Datalogger.
+- - User needs to provide functional battery for normal operation.
 
 -------
 
