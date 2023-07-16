@@ -14,8 +14,8 @@
 - - Needs two cycles to reset fault (Cycle 1: Start converting; Cycle 2: Read)
 - Short circuit protection for sensors (power and data line).
 - Short-circuit protection for the USB ports (power line).
-- 56 characters channel label
-- Special character supported (À/Á/Ã/Â/Ä).
+- 56 characters channel label.
+- Special character supported for channel label (À/Á/Ã/Â/Ä).
 - Channel label Ctrl+C/Ctrl+V (copy/paste) supported.
 - 53 895 readings per channel (37 days, 10 hours and 15 minutes @ 1 minute interval).
 - Control access to settings and data export via password.
