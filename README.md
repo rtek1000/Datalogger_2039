@@ -92,7 +92,6 @@ Note: If the pins PA13 (SWDIO) and PA14 (SWCLK) are used (configured for another
 - Add change to USB Flash Drive port power to be activated only when data export is confirmed.
 -
 - Bug found: after enabling/disabling a channel, if the user switches from one channel to another using F1 to F8 keys, the channel state is not updated.
-- Bug found: occurring beep when booting automatically on battery even with all channels off.
 -
 - Note: Fixes and improvements noted in the changelog.txt file.
 
