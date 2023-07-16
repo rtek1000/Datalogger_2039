@@ -64,7 +64,7 @@
 - MCP1700: 1.6 µA Quiescent Current (IQ) Linear voltage regulator.
 - LMR14020: High efficiency 2.2 MHz 2A Step-Down Converter (40V, 40µA IQ).
 - MT3608: High Efficiency 1.2MHz 2A Step Up Converter (Up to 28V)
-- LAN8720: High-Performance 10/100 Ethernet (Connectivity expansion forecast).
+- LAN8720: High-Performance 10/100 Ethernet (For future connectivity expansion).
 - 12V DC charger (9V~24V x 2A)
 - Multi-functional button:
 - - For manual activation when in economy mode
