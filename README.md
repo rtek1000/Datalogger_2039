@@ -93,7 +93,7 @@ Note: If the pins PA13 (SWDIO) and PA14 (SWCLK) are used (configured for another
 -
 - Bug found: after enabling/disabling a channel, if the user switches from one channel to another using F1 to F8 keys, the channel state is not updated.
 -
-- Note: Fixes and improvements noted in the changelog.txt file.
+- Note: Fixes and improvements noted in the [changelog.txt](https://github.com/rtek1000/Datalogger_2039/blob/main/Software/Datalogger_2039%20-%20STM32/BIN/Evaluation%20version/changelog.txt) file.
 
 ### Downgrade firmware
 
