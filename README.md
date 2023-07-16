@@ -106,7 +106,7 @@ Note: To go back to version 0.0.7 after installing firmware 0.0.8:
 - - On the serial port UART1 it is possible to see that an infinite initialization loop occurs (via [PuTTy](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) 115200 bauds).
 - - Only the 5V regulator (U12) does not provide enough power to activate the DC-DC converter (U11) with the USB ports in use.
 - - Without 5V from U11, the display cannot turn on.
-- - The user can disconnect the keyboard to verify that the problem stops occurring.
+- - The user can disconnect the keyboard (USB1) to verify that the problem stops occurring.
 - - User needs to provide functional battery for normal operation.
 
 -------
