@@ -94,8 +94,13 @@ Note: If the pins PA13 (SWDIO) and PA14 (SWCLK) are used (configured for another
 
 Note: To go back to version 0.0.7 after installing firmware 0.0.8:
 - Version 0.0.7 does not support the [Wireless Mini Keyboard with Touchpad built in](https://github.com/rtek1000/Datalogger_2039/blob/main/Hardware/Mini_Keyboard1.jpg).
-- - On the serial port UART1 it is possible to see that an infinite initialization loop occurs.
 - - User needs to use normal USB keyboard **without** built-in touchpad.
+-
+- Version 0.0.7 enables USB ports differently than version 0.0.8.
+- - If the battery is disconnected or low charge, infinite loop may occur when booting.
+- - On the serial port UART1 it is possible to see that an infinite initialization loop occurs.
+- - Display backlight does not turn on.
+- - The user can disconnect the keyboard to verify that the problem stops occurring.
 
 -------
 
