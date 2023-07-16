@@ -89,6 +89,7 @@ Note: If the pins PA13 (SWDIO) and PA14 (SWCLK) are used (configured for another
 - Link offset value to sensor serial number (User may need to reposition sensors).
 - Add / Implement drivers for I2C and SPI peripherals using DMA.
 - Add support for [TMP117](https://www.ti.com/product/TMP117) (+/-0.1°C; 16 bits) sensors (8CH using I2C Multiplexer IC [TCA9548A](https://www.sparkfun.com/products/16784)). More info [here](https://github.com/rtek1000/Datalogger_2039/blob/main/Hardware/TMP117/README.md).
+- Add change to power from USB Flash Drive port to activate only when data export is confirmed. 
 -
 - Bug found: after enabling/disabling a channel, if the user switches from one channel to another using F1 to F8 keys, the channel state is not updated.
 -
