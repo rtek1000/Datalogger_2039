@@ -19,7 +19,8 @@
 - Channel label Ctrl+C/Ctrl+V (copy/paste) supported.
 - 53 895 readings per channel (37 days, 10 hours and 15 minutes @ 1 minute interval).
 - Control access to settings and data export via password.
-- Export data via USBdisk (*.dat). Before removing the USB disk It is recommended to exit the Export screen to completely disable the USB port.
+- Export data via USB Flash Drive (Pendrive) (*.dat file).
+- - Before removing the USB disk It is recommended to exit the Export screen to completely disable the USB port.
 - - Need to format the USB disk in FAT, or it will give an error.
 - - Output file with part of the data encoded in Base64. Need to decode the data to import into a spreadsheet, see the File Converter App.
 - Edit parameters via USB keyboard.
