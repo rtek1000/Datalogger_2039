@@ -5,7 +5,7 @@
 - - - ±0.2 °C (maximum) from –40 °C to +100 °C
 - - - ±0.25 °C (maximum) from –55 °C to +125 °C
 - - - ±0.3 °C (maximum) from –55 °C to +150 °C
-- - - Operating temperature range: –55 °C to +150 °C ( 0°C to 85°C only, letter M)
+- - - Operating temperature range: –55 °C to +150 °C (For model with letter M: 0°C to 85°C only)
 - - Due to the high sensitivity of the sensor, manual soldering can affect the TMP117, it may be more advisable to buy assembled PCB boards, for example [Adafruit](https://www.adafruit.com/product/4821) and [SparkFun](https://www.sparkfun.com/products/15805) boards
 - - - WSON package: [SON Temperature Profile](https://www.ti.com/lit/an/slua271b/slua271b.pdf)
 - - - - Rework Guidelines: "Do not reuse the part after it is removed" (Pag 16, Table 3)
