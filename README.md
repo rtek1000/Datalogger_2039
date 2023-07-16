@@ -101,6 +101,8 @@ Note: To go back to version 0.0.7 after installing firmware 0.0.8:
 - - On the serial port UART1 it is possible to see that an infinite initialization loop occurs.
 - - Display backlight does not turn on.
 - - The user can disconnect the keyboard to verify that the problem stops occurring.
+- - The charger does not have enough power to activate the DC-DC converter with the USB ports enabled.
+- - User needs to provide functional battery for normal operation of Datalogger.
 
 -------
 
