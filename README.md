@@ -86,7 +86,7 @@ Note: If the pins PA13 (SWDIO) and PA14 (SWCLK) are used (configured for another
 - Add prefix to the name of files generated with PrintScreen.
 - Add factory reset (W25Q64 chip erase).
 - Add offset adjustment lock if sensor is in use.
-- Link offset value to sensor serial number (User may need to reposition sensors).
+- Add a link to the offset value to the sensor serial number (user may need to reposition sensors).
 - Add / Implement drivers for I2C and SPI peripherals using DMA.
 - Add support for [TMP117](https://www.ti.com/product/TMP117) (+/-0.1°C; 16 bits) sensors (8CH using I2C Multiplexer IC [TCA9548A](https://www.sparkfun.com/products/16784)). More info [here](https://github.com/rtek1000/Datalogger_2039/blob/main/Hardware/TMP117/README.md).
 - Add change to USB Flash Drive port power to be activated only when data export is confirmed.
