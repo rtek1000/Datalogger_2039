@@ -1,6 +1,24 @@
-[Jun/19/2023]
-- Base project created
-- Added UART1 log output
+[Jul/16/2023]
+- Fixed beep bug for 'battery only' boot, main.c file
+- Modified '?' missing keyboard icon for 'A' red obstructed
+- Modified changelog file to descending chronological order
+
+[Jul/15/2023]
+- Fixed memory test screen timeout to return to main screen, main.c file
+- Added beep after completion of memory test
+- Increased the interval between repeated beeps from 25ms to 150ms
+- Fixed missing PULL-UP on CHARGER_STATE pin, does not recognize battery error, main.c file
+- Added timeout for battery error beep (30s/ReCycle:5min), SCREEN.c file
+- Added beep skip for battery error (ESC key), (ReCycle:5min)
+
+[Jul/06/2023]
+- Added support for normal (+) and (-) keys for sensor offset adjustment
+
+[Jun/30/2023]
+- Fixed beep reentrance bug, rewritten routine to not hold code
+- LCD menu tree split into additional file screen_menu.c
+- Fixed bug home screen scroll bar overlapping keyboard label
+- Added "CRC FLASH ERROR" warning on home screen
 
 [Jun/22/2023]
 - Added Wireless Mini Keyboard built-in support
@@ -22,20 +40,6 @@
 - Added CTRL+C/V for ch labels
 - Updated code page to 850
 
-[Jun/30/2023]
-- Fixed beep reentrance bug, rewritten routine to not hold code
-- LCD menu tree split into additional file screen_menu.c
-- Fixed bug home screen scroll bar overlapping keyboard label
-- Added "CRC FLASH ERROR" warning on home screen
-
-[Jul/06/2023]
-- Added support for normal (+) and (-) keys for sensor offset adjustment
-
-[Jul/15/2023]
-- Fixed memory test screen timeout to return to main screen, main.c file
-- Added beep after completion of memory test
-- Increased the interval between repeated beeps from 25ms to 150ms
-- Fixed missing PULL-UP on CHARGER_STATE pin, does not recognize battery error, main.c file
-- Added timeout for battery error beep (30s/ReCycle:5min), SCREEN.c file
-- Added beep skip for battery error (ESC key), (ReCycle:5min)
-
+[Jun/19/2023]
+- Base project created
+- Added UART1 log output
