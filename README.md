@@ -1,6 +1,8 @@
 # Datalogger 2039
-This is an 8-channel Datalogger for collecting temperature data (digital sensor).
-
+- This is an 8-channel logger for collecting temperature data (431 160 readings).
+- Data export via USB Flash Drive (Pendrive).
+- Digital sensor.
+  
 -------
 
 - Note: Work in progress, just demonstrative, not (fully) functional, sorry.
