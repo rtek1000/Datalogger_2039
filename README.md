@@ -14,7 +14,7 @@
 - - Needs two cycles to reset fault (Cycle 1: Start converting; Cycle 2: Read)
 - Short circuit protection for sensors (power and data line).
 - Short-circuit protection for the USB ports (power line).
-- 56 characters channel label [(firm. ver. 0.0.8): special character supported (À/Á/Ã/Â/Ä); Ctrl+C/Ctrl+C supported].
+- 56 characters channel label [(firm. ver. 0.0.8): special character supported (À/Á/Ã/Â/Ä); Ctrl+C/Ctrl+V supported].
 - 53 895 readings per channel (37 days, 10 hours and 15 minutes @ 1 minute interval).
 - Control access to settings and data export via password.
 - Export data via USBdisk (*.dat). Before removing the USB disk It is recommended to exit the Export screen to completely disable the USB port.
