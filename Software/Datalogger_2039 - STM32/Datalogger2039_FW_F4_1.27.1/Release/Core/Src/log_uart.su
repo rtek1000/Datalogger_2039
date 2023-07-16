@@ -1,3 +1,0 @@
-../Core/Src/log_uart.c:12:5:__io_putchar	16	static
-../Core/Src/log_uart.c:19:5:_write	16	static
-../Core/Src/log_uart.c:27:5:_read	0	static

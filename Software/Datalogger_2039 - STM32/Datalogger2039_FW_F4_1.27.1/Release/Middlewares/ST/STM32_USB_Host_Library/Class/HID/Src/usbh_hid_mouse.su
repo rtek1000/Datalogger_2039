@@ -1,2 +1,0 @@
-../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.c:193:20:USBH_HID_MouseInit	8	static
-../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.c:228:25:USBH_HID_GetMouseInfo	24	static

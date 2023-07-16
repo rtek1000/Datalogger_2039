@@ -1,4 +1,0 @@
-usbh_msc_bot.c:108:20:USBH_MSC_BOT_REQ_Reset	1
-usbh_msc_bot.c:129:20:USBH_MSC_BOT_REQ_GetMaxLUN	1
-usbh_msc_bot.c:150:20:USBH_MSC_BOT_Init	1
-usbh_msc_bot.c:172:20:USBH_MSC_BOT_Process	36

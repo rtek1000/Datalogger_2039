@@ -1,2 +1,0 @@
-../USB_HOST/Target/usbh_platform.c:35:6:MX_DriverVbusFS	0	static
-../USB_HOST/Target/usbh_platform.c:60:6:MX_DriverVbusHS	0	static

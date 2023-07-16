@@ -1,6 +1,0 @@
-base64.c:60:6:a3to4	1
-base64.c:67:6:a4to3	1
-base64.c:73:6:BASE64_encode	6
-base64.c:115:10:BASE64_encodeLength	1
-base64.c:119:6:BASE64_decode	7
-base64.c:166:10:BASE64_decodeLength	2

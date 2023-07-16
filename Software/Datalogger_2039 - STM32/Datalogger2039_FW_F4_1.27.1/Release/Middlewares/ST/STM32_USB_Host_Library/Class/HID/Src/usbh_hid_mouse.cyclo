@@ -1,2 +1,0 @@
-usbh_hid_mouse.c:193:20:USBH_HID_MouseInit	2
-usbh_hid_mouse.c:228:25:USBH_HID_GetMouseInfo	7
