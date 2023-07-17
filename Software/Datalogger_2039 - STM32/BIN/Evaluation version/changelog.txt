@@ -1,7 +1,18 @@
+[ToDo]
+- Add prefix to the name of files generated with PrintScreen.
+- Add factory reset (W25Q64 chip erase).
+- Add offset adjustment lock if sensor is in use.
+- Add a link to the offset value to the sensor serial number (user may need to reposition sensors).
+- Add / Implement drivers for I2C and SPI peripherals using DMA.
+- Add change to USB Flash Drive port power to be activated only when data export is confirmed.
+- Add TMP117 support
+- Bug found, if cancel tag change, textbox is not fully cleared
+
 [Jul/16/2023]
 - Fixed beep bug for 'battery only' boot, main.c file
 - Modified '?' missing keyboard icon for 'A' red obstructed
 - Modified changelog file to descending chronological order
+- Fixed channel state update bug to switches to another channel using F1 to F8 keys, file SCREEN.c
 
 [Jul/15/2023]
 - Fixed memory test screen timeout to return to main screen, main.c file
