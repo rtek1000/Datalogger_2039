@@ -84,7 +84,6 @@ Note: If the pins PA13 (SWDIO) and PA14 (SWCLK) are used (configured for another
 -------
 
 #### ToDo
-- Add prefix to the name of files generated with PrintScreen.
 - Add factory reset (W25Q64 chip erase).
 - Add offset adjustment lock if sensor is in use.
 - Add a link to the offset value to the sensor serial number (user may need to reposition sensors).
