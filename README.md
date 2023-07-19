@@ -39,7 +39,7 @@
 - - The display backlight has 3 operating states: high brightness, low brightness and off.
 - - When the sensor is read, a conversion interval of 750ms is required, during which time the microcontroller sleeps.
 - Temperature offset. On the sensors screen, press the number between 1 and 8 to open the offset adjustment screen.
-- Support to [Wireless Mini Keyboard with Touchpad built in](https://github.com/rtek1000/Datalogger_2039/blob/main/Hardware/Mini_Keyboard1.jpg) (Tested with PT-BR ABNT2 language, waiting for the English version to arrive).
+- Support to [Wireless Mini Keyboard with Touchpad built in](https://github.com/rtek1000/Datalogger_2039/blob/main/Hardware/Mini_Keyboard1.jpg) (Tested with PT-BR language).
 
 ## Software:
 - Firmware for STM32F407VGT6 microcontroller:
