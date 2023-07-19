@@ -3,10 +3,7 @@
 - Data export via USB Flash Drive (Pendrive).
 - Digital sensor.
 - Project started in Jan/2019.
-  
--------
-
-- Note: Work in progress, just demonstrative, not (fully) functional, sorry.
+- - Note: Work in progress, just demonstrative, not (fully) functional, sorry.
 
 -------
 
