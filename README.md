@@ -28,7 +28,7 @@
 - Battery and charger voltage monitoring.
 - Battery polarity reversal protection (In case the Datalogger 2039 is using two batteries, it is not recommended to reverse any of them, or it may damage the battery).
 - Monitoring of data in colored graph.
-- Screenshot of graph to save to USB Flash Drive (Other screens can be captured, USBdisk is triggered only during capture).
+- Can save Screenshot to USB flash drive.
 - Multiple languages (English, Portuguese and Spanish).
 - Integrated firmware integrity check (CRC).
 - Energy saving for prolonged battery charge and durability of the LCD backlight.
