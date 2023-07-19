@@ -23,6 +23,7 @@
 - - Output file with part of the data encoded in Base64. Need to decode the data to import into a spreadsheet, see the File Converter App.
 - Edit parameters via USB keyboard.
 - - Keyboard may take a few seconds to recognize.
+- - Support to [Wireless Mini Keyboard with Touchpad built in](https://github.com/rtek1000/Datalogger_2039/blob/main/Hardware/Mini_Keyboard1.jpg) (Tested with PT-BR language).
 - Cabinet tilt monitoring.
 - Battery and charger voltage monitoring.
 - Battery polarity reversal protection (In case the Datalogger 2039 is using two batteries, it is not recommended to reverse any of them, or it may damage the battery).
@@ -36,7 +37,6 @@
 - - The display backlight has 3 operating states: high brightness, low brightness and off.
 - - When the sensor is read, a conversion interval of 750ms is required, during which time the microcontroller sleeps.
 - Temperature offset. On the sensors screen, press the number between 1 and 8 to open the offset adjustment screen.
-- Support to [Wireless Mini Keyboard with Touchpad built in](https://github.com/rtek1000/Datalogger_2039/blob/main/Hardware/Mini_Keyboard1.jpg) (Tested with PT-BR language).
 
 ## Software:
 - Firmware for STM32F407VGT6 microcontroller:
