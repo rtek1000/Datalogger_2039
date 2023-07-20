@@ -1,4 +1,4 @@
-Note: The scancodes sent by the keyboard must be the same for all layouts, then the computer converts it to keycode, to correctly match the symbols stamped on the key.
+Note: The scancodes sent by the keyboard must be the same for each key in all layouts, then the computer converts it into a keycode, to correctly match the symbols stamped on the key.
 
 #### ISO 639-1 standard language codes (for reference)
 
