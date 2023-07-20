@@ -1,3 +1,5 @@
+Note: The scancodes sent by the keyboard must be the same for all layouts, then the computer converts it to keycode, to correctly match the symbols stamped on the key.
+
 #### ISO 639-1 standard language codes (for reference)
 
 Language (Region)	- Code
