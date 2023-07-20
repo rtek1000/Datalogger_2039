@@ -129,3 +129,5 @@ Language (Region)	- Code
 
 Source: https://www.andiamo.co.uk/resources/iso-language-codes/
 
+Keyboard-internal scancodes 
+https://www.win.tue.nl/~aeb/linux/kbd/scancodes-10.html
