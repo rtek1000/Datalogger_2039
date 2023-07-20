@@ -13,6 +13,7 @@
 - Added beep after completion of data export, usbhost.c file
 - Modified beep after completion of memory test, main.c file
 - - from short beep to long beep
+- Add language support for memory check status
 
 [Jul/16/2023]
 - Fixed beep bug for 'battery only' boot, main.c file
