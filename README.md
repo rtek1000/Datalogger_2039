@@ -23,7 +23,7 @@
 - - Output file with part of the data encoded in Base64. Need to decode the data to import into a spreadsheet, see the File Converter App.
 - Edit parameters via USB keyboard.
 - - Keyboard may take a few seconds to recognize.
-- - Support to [Wireless Mini Keyboard with Touchpad built in](https://github.com/rtek1000/Datalogger_2039/blob/main/Hardware/Wireless%20Mini%20Keyboard/Mini_Keyboard_Colors.jpg) (Tested with PT-BR language).
+- - Support to [Wireless Mini Keyboard with Touchpad built in](https://github.com/rtek1000/Datalogger_2039/blob/main/Hardware/Wireless%20Mini%20Keyboard/Mini_Keyboard_Colors.jpg) (Tested with PT-BR layout).
 - Cabinet tilt monitoring.
 - Battery and charger voltage monitoring.
 - Battery polarity reversal protection (In case the Datalogger 2039 is using two batteries, it is not recommended to reverse any of them, or it may damage the battery).
