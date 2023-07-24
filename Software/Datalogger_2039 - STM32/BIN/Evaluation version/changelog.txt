@@ -7,6 +7,16 @@
 - Add TMP117 support (I2C bus).
 - Add warning on memory test screen if data not exported.
 
+[Jul/24/2023]
+- Added sensor type handling, main.c file
+- Added sensor type handling, EEPROM_EXTERN.c file
+
+[Jul/23/2023]
+- LcdScreenMonChOffset  (LcdScreenTypeDef) renamed to LcdScreenSenseSettings, main.h file
+- lcd_sensors_monitor_offset() renamed to lcd_sensors_settings(), SCREEN.c file
+- menu_LcdScreenMonChOffset() renamed to menu_LcdScreenSenseSettings(), screen_menu.c file
+- Added TMP117 sensor type option (next to offset setting)
+
 [Jul/19/2023]
 - Fixed bug, if using F1 to F8 or ESC keys, textbox is not fully cleared if cancel the tag change, screen_menu.c file
 - - The screen should load the selected channel (F1 to F8 keys) or goto main screen (ESC key)
