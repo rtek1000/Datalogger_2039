@@ -1,3 +1,5 @@
+Note: If the keyboard is battery operated (BL-5C 3.7V), and the battery stops charging, check the IC XT4052 SOT23-5 inside the keyboard.
+
 Note: The scancodes sent by the keyboard must be the same for each key in all layouts, then the computer converts it into a keycode, to correctly match the symbols stamped on the key.
 
 #### ISO 639-1 standard language codes (for reference)
