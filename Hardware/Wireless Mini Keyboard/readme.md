@@ -1,4 +1,4 @@
-Note: If the keyboard is battery operated (BL-5C 3.7V), and the battery stops charging, check the IC XT4052 SOT23-5 inside the keyboard. It may be possible to adapt the TP4056 IC, but you should change the current adjustment resistor so as not to force the battery too much, maybe 500mA or less, the battery is 1000mA.
+Note: If the keyboard is battery operated (BL-5C 3.7V), and the battery stops charging, check the IC XT4052 SOT23-5 inside the keyboard. It may be possible to adapt the TP4056 IC, but you should change the current adjustment resistor so as not to force the battery too much, maybe 500mA or less, the battery is 1000mA. Initial Symptom (XT4052 fail): The charge LED indicator blinks irregularly.
 
 Note: The scancodes sent by the keyboard must be the same for each key in all layouts, then the computer converts it into a keycode, to correctly match the symbols stamped on the key.
 
