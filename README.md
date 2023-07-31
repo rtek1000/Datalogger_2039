@@ -30,7 +30,7 @@
 - Monitoring of data in colored graph.
 - Can save Screenshot to USB flash drive (PrintScreen key).
 - Multiple languages (English, Portuguese and Spanish).
-- Integrated firmware integrity check (CRC).
+- [Integrated firmware integrity check (CRC)](https://community.st.com/t5/security-mcu/how-to-use-hal-crc-accumulate-bufferlength-does-not-accept-the/td-p/252363).
 - Energy saving for prolonged battery charge and durability of the LCD backlight.
 - - Microcontroller operates in two modes, low power at only 40MHz clock and normal power at 168MHz clock.
 - - The display is activated only when the microcontroller is clocked at 168MHz.
