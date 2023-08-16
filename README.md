@@ -30,7 +30,7 @@
 - Monitoring of data in colored graph.
 - Can save Screenshot to USB flash drive (PrintScreen key).
 - Multiple languages (English, Portuguese and Spanish).
-- Integrated firmware integrity check (CRC).
+- [Integrated firmware integrity check (CRC)](https://community.st.com/t5/security-mcu/how-to-use-hal-crc-accumulate-bufferlength-does-not-accept-the/td-p/252363).
 - Energy saving for prolonged battery charge and durability of the LCD backlight.
 - - Microcontroller operates in two modes, low power at only 40MHz clock and normal power at 168MHz clock.
 - - The display is activated only when the microcontroller is clocked at 168MHz.
@@ -94,7 +94,7 @@ Note: If the pins PA13 (SWDIO) and PA14 (SWCLK) are used (configured for another
 ### Downgrade firmware
 
 Note: To go back to version 0.0.7 after installing firmware 0.0.8:
-- Version 0.0.7 does not support the [Wireless Mini Keyboard with Touchpad built in](https://github.com/rtek1000/Datalogger_2039/blob/main/Hardware/Mini_Keyboard1.jpg).
+- Version 0.0.7 does not support the [Wireless Mini Keyboard with Touchpad built in](https://github.com/rtek1000/Datalogger_2039/tree/main/Hardware/Wireless%20Mini%20Keyboard).
 - - User needs to use normal USB keyboard **without** built-in touchpad.
 -
 - Version 0.0.7 powers USB ports differently than version 0.0.8.
