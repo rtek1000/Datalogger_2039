@@ -48,8 +48,9 @@
 
 ## Hardware:
 - STM32F407VGT6: Dual USB port microcontroller.
-- DS18B20: OneWire temperature sensor (±0.5°C Accuracy from -10°C to +85°C).
-- [TMP117](https://www.ti.com/product/TMP117) (±0.1°C; 16 bits) sensors (8CH using I2C Multiplexer IC [TCA9548A](https://www.sparkfun.com/products/16784)). More info [here](https://github.com/rtek1000/Datalogger_2039/blob/main/Hardware/TMP117/README.md).
+- DS18B20: OneWire digital temperature sensor (±0.5°C Accuracy from -10°C to +85°C).
+- TMP117: I2C digital temperature sensor (±0.1°C; 16 bits).
+- TCA9548A: 8CH I2C Multiplexer.
 - CD74HC595: Port expansion (8-Bit Serial-In, Parallel-Out Shift)
 - ILI9341: SPI TFT LCD 2.4 inch.
 - W25Q64: SPI flash memory (64M-bit).
