@@ -7,6 +7,30 @@
 - Add TMP117 support (I2C bus).
 - Add warning on memory test screen if data not exported.
 
+[Aug/15/2023]
+- Main menu return modification, SCREEN.c file
+
+[Aug/14/2023]
+- TMP117 sensor implementation completed
+
+[Aug/13/2023]
+- TMP117 sensor implementation
+
+[Aug/11/2023]
+- TMP117 sensor implementation
+
+[Aug/10/2023]
+- TMP117 sensor implementation
+
+[Aug/05/2023]
+- Added TMP117 basic readings
+
+[Aug/03/2023]
+- Relocated DS18B20 sensor reading routines to Temperature_Sensor.c file
+
+[Aug/02/2023]
+- Added preliminary support for TCA9548A
+
 [Jul/24/2023]
 - Added sensor type handling, main.c file
 - Added sensor type handling, EEPROM_EXTERN.c file
