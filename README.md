@@ -10,6 +10,7 @@
 ## Features:
 - 12-bit temperature sensor [DS18B20 from -55°C to +125°C (-67°F to +257°F)]
 - - Needs two cycles to reset fault (Cycle 1: Start converting; Cycle 2: Read)
+- 16-bit temperature sensor [TMP117 from -55°C to 150°C and from 0°C to 85°C for letter M code)]
 - Short circuit protection for sensors (power and data line).
 - Short-circuit protection for the USB ports (power line).
 - 56 characters channel label.
@@ -48,6 +49,7 @@
 ## Hardware:
 - STM32F407VGT6: Dual USB port microcontroller.
 - DS18B20: OneWire temperature sensor (±0.5°C Accuracy from -10°C to +85°C).
+- [TMP117](https://www.ti.com/product/TMP117) (±0.1°C; 16 bits) sensors (8CH using I2C Multiplexer IC [TCA9548A](https://www.sparkfun.com/products/16784)). More info [here](https://github.com/rtek1000/Datalogger_2039/blob/main/Hardware/TMP117/README.md).
 - CD74HC595: Port expansion (8-Bit Serial-In, Parallel-Out Shift)
 - ILI9341: SPI TFT LCD 2.4 inch.
 - W25Q64: SPI flash memory (64M-bit).
@@ -85,7 +87,6 @@ Note: If the pins PA13 (SWDIO) and PA14 (SWCLK) are used (configured for another
 - Add offset adjustment lock if sensor is in use.
 - Add a link to the offset value to the sensor serial number (user may need to reposition sensors).
 - Add / Implement drivers for I2C and SPI peripherals using DMA.
-- Add support for [TMP117](https://www.ti.com/product/TMP117) (+/-0.1°C; 16 bits) sensors (8CH using I2C Multiplexer IC [TCA9548A](https://www.sparkfun.com/products/16784)). More info [here](https://github.com/rtek1000/Datalogger_2039/blob/main/Hardware/TMP117/README.md).
 - Modify USB Flash Drive port power to be enabled only when data export is confirmed.
 -
 - Note: Fixes and improvements noted in the [changelog.txt](https://github.com/rtek1000/Datalogger_2039/blob/main/Software/Datalogger_2039%20-%20STM32/BIN/Evaluation%20version/changelog.txt) file.
