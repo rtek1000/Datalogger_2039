@@ -7,6 +7,10 @@
 - Add TMP117 support (I2C bus).
 - Add warning on memory test screen if data not exported.
 
+[Nov/01/2023]
+- Modification/Bug fix battery voltage, main.c
+- Modification/Bug fix battery percent, main.c
+
 [Sep/25/2023]
 - Initialization RTC display message update, main.c file
 - Bug fix clock adjustment screen for battery failure, main.c file
