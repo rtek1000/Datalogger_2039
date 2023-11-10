@@ -23,7 +23,7 @@
 - - Need to format the USB disk in FAT (FAT32, LBA), or it will give an error.
 - - Output file with part of the data encoded in Base64. Need to decode the data to import into a spreadsheet, see the File Converter App.
 - - Formatting USB Flash Drive in Linux use the [Disks](https://askubuntu.com/questions/22381/how-to-format-a-usb-flash-drive) application instead of Gparted (using GParted may cause an error, restarting the Datalogger).
-- - Formatting USB Flash Drive on Android did not cause an error (tested on Motorola Smartphone and Android version 10).
+- - Formatting USB flash drive on Android did not cause error (tested on Motorola Smartphone and Android version 10).
 - - Quick formatting may cause an error if the previous partition is not FAT, in this case use full formatting.
 - Edit parameters via USB keyboard.
 - - Keyboard may take a few seconds to recognize.
