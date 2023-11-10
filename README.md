@@ -22,6 +22,8 @@
 - - Before removing the USB disk It is recommended to exit the Export screen to completely disable the USB port.
 - - Need to format the USB disk in FAT, or it will give an error.
 - - Output file with part of the data encoded in Base64. Need to decode the data to import into a spreadsheet, see the File Converter App.
+- - Formatting USB Flash Drive in Linux use the Disks application instead of Gparted (using GParted may cause an error, restarting the Datalogger).
+- - Formatting USB Flash Drive on Android did not cause an error (tested on Motorola Smartphone and Android version 10).
 - Edit parameters via USB keyboard.
 - - Keyboard may take a few seconds to recognize.
 - - Support to [Wireless Mini Keyboard with Touchpad built in](https://github.com/rtek1000/Datalogger_2039/blob/main/Hardware/Wireless%20Mini%20Keyboard/Mini_Keyboard_Colors.jpg) ([Tested with PT-BR layout](https://github.com/rtek1000/Datalogger_2039/tree/main/Hardware/Wireless%20Mini%20Keyboard)).
