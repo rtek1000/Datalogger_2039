@@ -26,6 +26,7 @@
 - - Formatting USB flash drive on [Android](https://support-en.wd.com/app/answers/detailweb/a_id/40101/~/format-a-usb-drive-or-memory-card-using-android) did not cause error (tested on Motorola Smartphone and Android version 10).
 - - Quick formatting may cause an error if the previous partition is not FAT, in this case use full formatting.
 - USB Flash Drive (Pendrive) format function (Be careful, all files will be lost).
+- - Some USB disks may not be recognized correctly on Android smartphones when using exFAT.
 - Edit parameters via USB keyboard.
 - - Keyboard may take a few seconds to recognize.
 - - Support to [Wireless Mini Keyboard with Touchpad built in](https://github.com/rtek1000/Datalogger_2039/blob/main/Hardware/Wireless%20Mini%20Keyboard/Mini_Keyboard_Colors.jpg) ([Tested with PT-BR layout](https://github.com/rtek1000/Datalogger_2039/tree/main/Hardware/Wireless%20Mini%20Keyboard)).
