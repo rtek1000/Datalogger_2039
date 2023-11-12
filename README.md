@@ -41,7 +41,7 @@
 - - Microcontroller operates in two modes, low power at only 40MHz clock and normal power at 168MHz clock.
 - - The display is activated only when the microcontroller is clocked at 168MHz.
 - - The display backlight has 3 operating states: high brightness, low brightness and off.
-- - When the sensor is read, a conversion interval of 750ms is required, during which time the microcontroller sleeps.
+- - When the sensor is read, a conversion interval of 750ms is required (DS18B20), during which time the microcontroller sleeps.
 - Temperature offset. On the sensors screen, press the number between 1 and 8 to open the offset adjustment screen.
 
 ## Software:
