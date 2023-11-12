@@ -7,6 +7,9 @@
 - Add TMP117 support (I2C bus).
 - Add warning on memory test screen if data not exported.
 
+[Nov/11/2023]
+- Added Udisk format function
+
 [Nov/01/2023]
 - Modification/Bug fix battery voltage, main.c
 - Modification/Bug fix battery percent, main.c
