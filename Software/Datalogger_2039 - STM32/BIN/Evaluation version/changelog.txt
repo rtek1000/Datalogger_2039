@@ -7,8 +7,11 @@
 - Add TMP117 support (I2C bus).
 - Add warning on memory test screen if data not exported.
 
+[Nov/13/2023]
+- Bug fix, incorrect sensor temperature unit (*C/*F) for channel setup screen, SCREEN.c
+
 [Nov/12/2023]
-- Modification/Bug fix (it was restarting eventually) WDG, new timeout: 8192ms, main.c
+- Modification/Bug fix (it was restarting eventually) IWDG, new timeout: 8192ms, main.c
 
 [Nov/11/2023]
 - Added Udisk format function
