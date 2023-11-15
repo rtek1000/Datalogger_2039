@@ -22,7 +22,6 @@
 - - Before removing the USB disk It is recommended to exit the Export screen to completely disable the USB port.
 - - Need to format the USB disk in FAT (FAT32, LBA; exFAT may be faster), or it will give an error.
 - - Output file with part of the data encoded in Base64. Need to decode the data to import into a spreadsheet, see the File Converter App.
-- - Formatting USB Flash Drive in Linux use the [Disks](https://askubuntu.com/questions/22381/how-to-format-a-usb-flash-drive) application instead of Gparted (using GParted may cause an error, restarting the Datalogger).
 - - Formatting USB flash drive on [Android](https://support-en.wd.com/app/answers/detailweb/a_id/40101/~/format-a-usb-drive-or-memory-card-using-android) did not cause error (tested on Motorola Smartphone and Android version 10).
 - - Quick formatting may cause an error if the previous partition is not FAT, in this case use full formatting.
 - USB Flash Drive (Pendrive) format function (Be careful, all files will be lost).
