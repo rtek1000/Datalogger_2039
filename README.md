@@ -159,6 +159,8 @@ Each model may have an ERRATA document, check on the ST website under the Docume
 
 - Ref.: [USB Descriptor and Request Parser](https://eleccelerator.com/usbdescreqparser/) 
 
+- See too: ESP32-S3 has 1x USB Host port, and can recognize keyboard with touchpad, [Code and details](https://github.com/espressif/esp-idf/issues/12667#issuecomment-1827783341)
+
 --------
 
 ## Licence:
