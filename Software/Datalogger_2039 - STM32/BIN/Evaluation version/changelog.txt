@@ -1,11 +1,27 @@
 [ToDo]
 - Add factory reset (W25Q64 chip erase).
-- Add offset adjustment lock if sensor is in use.
 - Add a link to the offset value to the sensor serial number (user may need to reposition sensors).
 - Add / Implement drivers for I2C and SPI peripherals using DMA.
 - Modify USB Flash Drive port power to be enabled only when data export is confirmed.
-- Add TMP117 support (I2C bus).
-- Add warning on memory test screen if data not exported.
+- Add initial zoom to chart preview screen
+- Fix bug in zoom navigation, to chart preview screen, does not show settings if all channels are not selected.
+- Fix Event data missing year (converter)
+- Fix Channels data order (converter)
+
+[Nov/21/2023]
+- Bug fix, hide ':' on language screen, SCREEN.c
+- Bug fix, replace '.' to ',' on sensor monitor screen, SCREEN.c
+- Modification, keyboard navigation for sensor settings, screen_menu.c
+- Added, flashes for 'In use' sensor warning, screen_menu.c
+- Added, offset adjustment lock if sensor is 'In use', screen_menu.c
+- Added, type sensor lock if sensor is 'In use', screen_menu.c
+
+[Nov/20/2023]
+- Modificationkeyboard USB port reset via Button1, main.c
+
+[Nov/18/2023]
+- Bug fix, hardware bug, zener diode (D51) interfering with battery measurement
+- - Returned battery ADC reading value from [1:1.05] to [1:1], main.c
 
 [Nov/13/2023]
 - Bug fix, incorrect sensor temperature unit (*C/*F) for channel setup screen, SCREEN.c
