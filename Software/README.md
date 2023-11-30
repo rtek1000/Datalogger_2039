@@ -1,4 +1,4 @@
-Current firmware: ![here](https://github.com/rtek1000/Datalogger_2039/tree/main/Software/Datalogger_2039%20-%20STM32/BIN/Evaluation%20version)
+Current firmware: [here](https://github.com/rtek1000/Datalogger_2039/tree/main/Software/Datalogger_2039%20-%20STM32/BIN/Evaluation%20version)
 
 Current file converter: [here](https://github.com/rtek1000/Datalogger_2039/tree/main/Software/Datalogger_2039%20-%20SharpDevelop/Bin)
 
