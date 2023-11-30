@@ -3,6 +3,9 @@ Current firmware: [here](https://github.com/rtek1000/Datalogger_2039/tree/main/S
 Current file converter: [here](https://github.com/rtek1000/Datalogger_2039/tree/main/Software/Datalogger_2039%20-%20SharpDevelop/Bin)
 
 Notes:
+- If you are using a browser on your smartphone, use the landscape screen to read more characters in the file names.
+- - (These files have already been cited elsewhere, and changing the name of the folders causes corruption of the references)
+
 - USB_HOST_HID_MSC_LCD_FLASH_RTC_ACC_TEMP3 (STM32F407VGT6 firmware):
 -- Editing software: STM32CubeIDE version: 1.6.1 [https://www.st.com/en/development-tools/stm32cubeide.html]
 -- Editing software: STM32CubeIDE version: 1.7.0 [https://www.st.com/en/development-tools/stm32cubeide.html]
