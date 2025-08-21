@@ -7,7 +7,7 @@ Note:
 - The software needs to be updated to operate the battery gauge.
 
 ##### Board
-- Size: 80x150mm; With tabs: 100x150mm
+- Size: 80x150mm
 
 ![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/refs/heads/main/Hardware/Hardware_2.0/Datalogger_2039_Single_Board_T.png)
 
