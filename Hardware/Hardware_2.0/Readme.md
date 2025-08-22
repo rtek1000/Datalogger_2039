@@ -13,10 +13,13 @@ Note:
 
 ![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/refs/heads/main/Hardware/Hardware_2.0/Datalogger_2039_Single_Board_B.png)
 
-##### GERBER file:
-- Note: The board was panelized. JLCPCB increased the price of the board without panelization by 9x.
-  
-![img](https://raw.githubusercontent.com/rtek1000/Datalogger_2039/refs/heads/main/Hardware/Hardware_2.0/PCB_T.png)
+##### JLCPCB:
+Notes:
+
+- JLCPCB increased the price of the board by 9x
+- - JLCPCB responded about the price being increased due to the hole size being too small
+
+> This PCB has a minimum hole size of 0.15 mm (outer diameter 0.25/0.3 mm). High-precision PCBs with 0.15 mm (0.25/0.3 mm) vias are more difficult to manufacture. To ensure board quality, the options “4-Wire Kelvin Test” and “FR4 Tg155” are automatically applied, which led to the price increase.
 
 ##### Schematic
 - Battery Gauge
